@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T21:03:46+00:00",
+ "generated_at": "2026-09-20T21:40:58+00:00",
  "election_day": "2026-10-26",
  "advance_voting_days": [
   "2026-10-09",
@@ -15,7 +15,7 @@
    "bytes": 103961,
    "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Planning_Local_Government/FeatureServer/3",
    "note": "simplified at 0.00035 degrees for browser point-in-polygon",
-   "retrieved_at": "2026-09-20T21:03:43+00:00"
+   "retrieved_at": "2026-09-20T21:40:06+00:00"
   },
   {
    "file": "ward_pairs.json",
@@ -23,7 +23,7 @@
    "bytes": 140,
    "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Planning_Local_Government/FeatureServer/3",
    "note": "derived from the ELECTORAL_AREA text, not hardcoded",
-   "retrieved_at": "2026-09-20T21:03:43+00:00"
+   "retrieved_at": "2026-09-20T21:40:06+00:00"
   },
   {
    "file": "roads.geojson",
@@ -31,7 +31,7 @@
    "bytes": 334574,
    "source": "https://services6.arcgis.com/ONZht79c8QWuX759/arcgis/rest/services/Street_Centre_Line",
    "note": "clipped to the ward extent and simplified; map context only",
-   "retrieved_at": "2026-09-20T21:03:43+00:00"
+   "retrieved_at": "2026-09-20T21:40:06+00:00"
   },
   {
    "file": "polls_voting_day.json",
@@ -39,7 +39,7 @@
    "bytes": 28167,
    "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/2026VotingDayLocations_PRD/FeatureServer/0",
    "note": "election day 2026-10-26; assigned poll only",
-   "retrieved_at": "2026-09-20T21:03:44+00:00"
+   "retrieved_at": "2026-09-20T21:40:07+00:00"
   },
   {
    "file": "polls_advance.json",
@@ -47,7 +47,7 @@
    "bytes": 3277,
    "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/2026AdvanceVotingLocations_PRD/FeatureServer/0",
    "note": "advance voting 9,10,11,16,17 Oct 2026; any location, any ward. WAIT_TIME is live only on voting days",
-   "retrieved_at": "2026-09-20T21:03:44+00:00"
+   "retrieved_at": "2026-09-20T21:40:07+00:00"
   },
   {
    "file": "poll_subdivisions.json",
@@ -55,7 +55,7 @@
    "bytes": 21081,
    "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Brampton_Elections/FeatureServer/0",
    "note": "",
-   "retrieved_at": "2026-09-20T21:03:44+00:00"
+   "retrieved_at": "2026-09-20T21:40:07+00:00"
   },
   {
    "file": "council_current.json",
@@ -63,7 +63,7 @@
    "bytes": 4342,
    "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Term_of_Council_Elected_Officials_2022_to_2026/FeatureServer/0",
    "note": "2022-2026 term; layer repeats each councillor per ward, collapsed here to ward pairs",
-   "retrieved_at": "2026-09-20T21:03:44+00:00"
+   "retrieved_at": "2026-09-20T21:40:07+00:00"
   },
   {
    "file": "results_2018.json",
@@ -71,7 +71,7 @@
    "bytes": 1470438,
    "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/2018_Election_Results/FeatureServer/0",
    "note": "poll-level results; 2022 official results are PDF only and not yet parsed",
-   "retrieved_at": "2026-09-20T21:03:46+00:00"
+   "retrieved_at": "2026-09-20T21:40:08+00:00"
   },
   {
    "file": "candidates.json",
@@ -79,7 +79,7 @@
    "bytes": 62361,
    "source": "https://www.brampton.ca/EN/City-Hall/Election/Candidates/Pages/candidateListing.aspx",
    "note": "certified 2026-08-25; field frozen. positions[] intentionally empty until sourced",
-   "retrieved_at": "2026-09-20T21:03:46+00:00"
+   "retrieved_at": "2026-09-20T21:40:09+00:00"
   },
   {
    "file": "candidate_counts.json",
@@ -87,7 +87,23 @@
    "bytes": 1178,
    "source": "https://www.brampton.ca/EN/City-Hall/Election/Candidates/Pages/candidateListing.aspx",
    "note": "sanity check on the scrape",
-   "retrieved_at": "2026-09-20T21:03:46+00:00"
+   "retrieved_at": "2026-09-20T21:40:09+00:00"
+  },
+  {
+   "file": "address_index.json",
+   "records": 3869,
+   "bytes": 82445,
+   "source": "https://services6.arcgis.com/ONZht79c8QWuX759/arcgis/rest/services/Address_Points/FeatureServer/0",
+   "note": "206858 Brampton address points folded into 3869 streets; 53 cross a ward line",
+   "retrieved_at": "2026-09-20T21:40:51+00:00"
+  },
+  {
+   "file": "fsa_wards.json",
+   "records": 11,
+   "bytes": 1759,
+   "source": "https://services.arcgis.com/wjcPoefzjpzCgffS/arcgis/rest/services/Forward_Sortation_Area_(FSA)_Boundaries_2021/FeatureServer/0",
+   "note": "206857 address points assigned to 11 FSAs; wards under 2% share dropped as boundary noise",
+   "retrieved_at": "2026-09-20T21:40:58+00:00"
   }
  ]
 }

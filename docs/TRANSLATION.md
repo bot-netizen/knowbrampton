@@ -26,11 +26,17 @@ transliterated, or shown bilingually.
 resident or a Punjabi Post / Parvasi journalist. It becomes a permanent asset and is
 worth publishing on its own — nobody has one.
 
+## Resolved
+- **Masthead.** Was **ਨੋ ਬਰੈਂਪਟਨ**, a phonetic transliteration of "Know" that carried
+  none of its meaning. Now **ਜਾਣੋ ਬਰੈਂਪਟਨ** — *jaano*, the imperative "know". The
+  Punjabi name now says the same thing as the English one instead of just sounding
+  like it. This is exactly the class of error machine translation makes and a
+  speaker catches.
+
 ## Known issues for the review pass
-- The masthead currently renders "Know Brampton" as **ਨੋ ਬਰੈਂਪਟਨ**, a phonetic
-  transliteration that carries none of the meaning of "know". Either keep the brand
-  in Latin script or choose a real Punjabi name. **Decide with a native speaker.**
 - All body copy is machine-drafted and unreviewed.
+- Numerals render as Western Arabic (1, 2, 3) rather than Gurmukhi digits, which
+  matches how Punjabi Canadian media writes them. Confirm with the reviewer.
 
 ## Script
 Gurmukhi is correct for Brampton (25.1% of residents are Sikh). Shahmukhi

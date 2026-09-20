@@ -1,3 +1,4 @@
+import AddressLookup from "@/components/AddressLookup";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import WardPicker from "@/components/WardPicker";
@@ -10,6 +11,23 @@ export default async function FindWard({ params }: { params: Promise<{ locale: s
   const { locale: raw } = await params;
   const locale: Locale = isLocale(raw) ? raw : DEFAULT_LOCALE;
   const t = getDict(locale);
+  const lookupLabels = {
+    lookupLabel: t.ward.lookupLabel,
+    lookupPlaceholder: t.ward.lookupPlaceholder,
+    lookupCta: t.ward.lookupCta,
+    lookupHelp: t.ward.lookupHelp,
+    loading: t.ward.loading,
+    foundWard: t.ward.foundWard,
+    seeBallot: t.ward.seeBallot,
+    fsaSpans: t.ward.fsaSpans,
+    fsaPick: t.ward.fsaPick,
+    fsaDecisive: t.ward.fsaDecisive,
+    streetSpans: t.ward.streetSpans,
+    noMatch: t.ward.noMatch,
+    didYouMean: t.ward.didYouMean,
+    shareNote: t.ward.shareNote,
+  };
+
   const shapes = wardShapes();
   const { paths: roads, labels: roadLabels } = roadPaths(shapes);
 
@@ -40,8 +58,8 @@ export default async function FindWard({ params }: { params: Promise<{ locale: s
                 }}
               />
             </div>
-            <div style={{ flex: "1 1 300px", maxWidth: 380, background: "var(--paper-2)", border: "1px solid var(--rule)", padding: 22 }}>
-              <p style={{ margin: 0, fontSize: 14, color: "var(--ink-soft)" }}>{t.ward.addressSoon}</p>
+            <div style={{ flex: "1 1 340px", maxWidth: 420, background: "var(--card)", border: "1px solid var(--ink)", padding: 24 }}>
+              <AddressLookup locale={locale} labels={lookupLabels} />
             </div>
           </div>
         </section>

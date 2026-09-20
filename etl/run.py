@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import sys
 
-from . import candidates, council, polls, roads, wards
+from . import addresses, candidates, council, polls, postal, roads, wards
 from .common import flush_manifest
 
 
@@ -18,12 +18,23 @@ def main() -> int:
         ("polls", polls.run),
         ("council", council.run),
         ("candidates", candidates.run),
+
     ):
         try:
             summary[name] = fn() or {}
         except Exception as exc:  # noqa: BLE001 - one bad source must not kill the rest
             failed.append(name)
             print(f"  !! {name} FAILED: {exc}")
+
+    # Address points are pulled once and shared: the street index and the FSA
+    # table are two views of the same 207k rows.
+    try:
+        pts = addresses.fetch_points()
+        summary["addresses"] = addresses.run(pts)
+        summary["postal"] = postal.run(pts)
+    except Exception as exc:  # noqa: BLE001
+        failed.append("addresses/postal")
+        print(f"  !! addresses/postal FAILED: {exc}")
 
     flush_manifest()
 

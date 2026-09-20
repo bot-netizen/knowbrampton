@@ -8,7 +8,7 @@ const data = join(here, "..", "..", "data");
 const out = join(here, "..", "public", "data");
 
 // Only files the client actually fetches. Everything else is inlined at build time.
-const clientFiles = ["wards.geojson"];
+const clientFiles = ["wards.geojson", "address_index.json", "fsa_wards.json"];
 
 await mkdir(out, { recursive: true });
 for (const f of clientFiles) {

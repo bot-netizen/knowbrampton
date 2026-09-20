@@ -1,0 +1,156 @@
+{
+ "L6P": {
+  "wards": [
+   10,
+   8
+  ],
+  "pairs": [
+   "7+8",
+   "9+10"
+  ],
+  "decisive": false,
+  "share": {
+   "10": 0.619,
+   "8": 0.381
+  },
+  "addresses": 24527
+ },
+ "L6R": {
+  "wards": [
+   9,
+   10,
+   2
+  ],
+  "pairs": [
+   "2+6",
+   "9+10"
+  ],
+  "decisive": false,
+  "share": {
+   "9": 0.763,
+   "10": 0.206,
+   "2": 0.03
+  },
+  "addresses": 25738
+ },
+ "L6S": {
+  "wards": [
+   7,
+   8
+  ],
+  "pairs": [
+   "7+8"
+  ],
+  "decisive": true,
+  "share": {
+   "7": 0.534,
+   "8": 0.466
+  },
+  "addresses": 19711
+ },
+ "L6T": {
+  "wards": [
+   7,
+   3,
+   8
+  ],
+  "pairs": [
+   "3+4",
+   "7+8"
+  ],
+  "decisive": false,
+  "share": {
+   "7": 0.648,
+   "3": 0.248,
+   "8": 0.093
+  },
+  "addresses": 16285
+ },
+ "L6V": {
+  "wards": [
+   1
+  ],
+  "pairs": [
+   "1+5"
+  ],
+  "decisive": true,
+  "share": {
+   "1": 0.983
+  },
+  "addresses": 13750
+ },
+ "L6W": {
+  "wards": [
+   3
+  ],
+  "pairs": [
+   "3+4"
+  ],
+  "decisive": true,
+  "share": {
+   "3": 1.0
+  },
+  "addresses": 10459
+ },
+ "L6X": {
+  "wards": [
+   5,
+   1
+  ],
+  "pairs": [
+   "1+5"
+  ],
+  "decisive": true,
+  "share": {
+   "5": 0.777,
+   "1": 0.202
+  },
+  "addresses": 23320
+ },
+ "L6Y": {
+  "wards": [
+   4,
+   3,
+   6
+  ],
+  "pairs": [
+   "2+6",
+   "3+4"
+  ],
+  "decisive": false,
+  "share": {
+   "4": 0.586,
+   "3": 0.222,
+   "6": 0.191
+  },
+  "addresses": 30147
+ },
+ "L6Z": {
+  "wards": [
+   2
+  ],
+  "pairs": [
+   "2+6"
+  ],
+  "decisive": true,
+  "share": {
+   "2": 1.0
+  },
+  "addresses": 11095
+ },
+ "L7A": {
+  "wards": [
+   6,
+   2
+  ],
+  "pairs": [
+   "2+6"
+  ],
+  "decisive": true,
+  "share": {
+   "6": 0.841,
+   "2": 0.159
+  },
+  "addresses": 31823
+ }
+}

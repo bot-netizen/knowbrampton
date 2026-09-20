@@ -1,3 +1,4 @@
+import AddressLookup from "@/components/AddressLookup";
 import Countdown from "@/components/Countdown";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
@@ -15,6 +16,23 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const advanceDays = daysUntil(m.advance_voting_days[0]);
   const mayorCount = all.filter((c) => c.office === "mayor").length;
   const councilCount = all.filter((c) => c.office !== "trustee").length;
+
+  const lookupLabels = {
+    lookupLabel: t.ward.lookupLabel,
+    lookupPlaceholder: t.ward.lookupPlaceholder,
+    lookupCta: t.ward.lookupCta,
+    lookupHelp: t.ward.lookupHelp,
+    loading: t.ward.loading,
+    foundWard: t.ward.foundWard,
+    seeBallot: t.ward.seeBallot,
+    fsaSpans: t.ward.fsaSpans,
+    fsaPick: t.ward.fsaPick,
+    fsaDecisive: t.ward.fsaDecisive,
+    streetSpans: t.ward.streetSpans,
+    noMatch: t.ward.noMatch,
+    didYouMean: t.ward.didYouMean,
+    shareNote: t.ward.shareNote,
+  };
 
   const ballot = [
     { n: "01", title: t.ballot.mayor, body: t.ballot.mayorBody, extra: fill(t.ballot.candidateCount, { n: mayorCount }) },
@@ -94,25 +112,12 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
         <section className="section" style={{ borderBottom: "none" }}>
           <h2 style={{ fontSize: 30, marginBottom: 18 }}>{t.home.addressTitle}</h2>
-          <div
-            style={{
-              background: "var(--card)",
-              border: "1px solid var(--ink)",
-              padding: 28,
-              display: "flex",
-              gap: 20,
-              alignItems: "flex-end",
-              flexWrap: "wrap",
-            }}
-          >
-            <p style={{ margin: 0, fontSize: 14.5, color: "var(--ink-soft)", flex: "1 1 420px" }}>
-              {t.ward.addressSoon}
-            </p>
-            <a className="cta" href={href(locale, "my-ward")}>
-              {t.ward.finderTitle}
-            </a>
+          <div style={{ background: "var(--card)", border: "1px solid var(--ink)", padding: 28 }}>
+            <AddressLookup locale={locale} labels={lookupLabels} />
           </div>
-          <p style={{ fontSize: 13, color: "var(--muted)", marginTop: 14 }}>{t.home.addressHelp}</p>
+          <p style={{ fontSize: 13, color: "var(--muted)", marginTop: 14 }}>
+            {t.home.addressHelp} <a href={href(locale, "my-ward")}>{t.ward.tapMap} →</a>
+          </p>
           <p style={{ fontSize: 13, color: "var(--muted)" }}>
             {fill(t.home.fieldNote, { n: councilCount })}
           </p>
