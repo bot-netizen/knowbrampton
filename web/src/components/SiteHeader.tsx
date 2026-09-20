@@ -15,6 +15,7 @@ export default function SiteHeader({ locale, path = "" }: { locale: Locale; path
         </div>
         <nav className="site-nav">
           <a href={href(locale, "brampton-101")}>{t.nav.basics}</a>
+          <a href={href(locale, "how-it-works")}>{t.nav.howItWorks}</a>
           <a href={href(locale, "money")}>{t.nav.money}</a>
           <a href={href(locale, "issues")}>{t.nav.issues}</a>
           <a href={href(locale, "candidates")}>{t.nav.election}</a>
