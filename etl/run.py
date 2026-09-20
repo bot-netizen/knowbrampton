@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import sys
 
-from . import candidates, council, polls, wards
+from . import candidates, council, polls, roads, wards
 from .common import flush_manifest
 
 
@@ -14,6 +14,7 @@ def main() -> int:
 
     for name, fn in (
         ("wards", wards.run),
+        ("roads", roads.run),
         ("polls", polls.run),
         ("council", council.run),
         ("candidates", candidates.run),

@@ -1,14 +1,19 @@
-import { MAP_H, MAP_W, type WardShape } from "@/lib/wardmap-shared";
+import { Roads, RoadLabels } from "./RoadLayer";
+import { MAP_H, MAP_W, type RoadLabel, type RoadPath, type WardShape } from "@/lib/wardmap-shared";
 
 /** Static ward map. `highlight` fills that ward solid and outlines its partner. */
 export default function WardMap({
   shapes,
+  roads,
+  roadLabels,
   highlight,
   partner,
   label,
   width = MAP_W,
 }: {
   shapes: WardShape[];
+  roads?: RoadPath[];
+  roadLabels?: RoadLabel[];
   highlight?: string;
   partner?: string | null;
   label: string;
@@ -22,6 +27,8 @@ export default function WardMap({
       role="img"
       aria-label={label}
     >
+      <rect x={0} y={0} width={MAP_W} height={MAP_H} fill="#fdfcf9" />
+      {roads && <Roads paths={roads} />}
       {shapes.map((s) => {
         const isOn = highlight === s.ward;
         const isPartner = partner === s.ward;
@@ -31,13 +38,14 @@ export default function WardMap({
             key={s.ward}
             d={s.d}
             fill={muted ? "#8c8472" : s.colour}
-            fillOpacity={isOn ? 0.58 : isPartner ? 0.16 : muted ? 0.07 : 0.16}
+            fillOpacity={isOn ? 0.34 : isPartner ? 0.13 : muted ? 0.05 : 0.13}
             stroke={muted ? "#b5ac98" : s.colour}
             strokeWidth={isOn ? 2 : 1.5}
             strokeLinejoin="round"
           />
         );
       })}
+      {roadLabels && <RoadLabels labels={roadLabels} />}
       {shapes
         .filter((s) => !highlight || s.ward === highlight || s.ward === partner)
         .map((s) => {

@@ -3,7 +3,7 @@ import SiteHeader from "@/components/SiteHeader";
 import WardMap from "@/components/WardMap";
 import { DEFAULT_LOCALE, fill, getDict, href, isLocale, LOCALES, type Locale } from "@/i18n";
 import { advancePolls, manifest, racesForWard, votingDayPolls, wardPairs } from "@/lib/data";
-import { wardShapes } from "@/lib/wardmap";
+import { roadPaths, wardShapes } from "@/lib/wardmap";
 
 export function generateStaticParams() {
   const wards = Object.values(wardPairs()).flat();
@@ -21,6 +21,7 @@ export default async function WardPage({
   const info = racesForWard(ward);
   const m = manifest();
   const shapes = wardShapes();
+  const { paths: roads, labels: roadLabels } = roadPaths(shapes);
 
   const advance = advancePolls().find((p) => p.ward === ward) ?? null;
   const dayPolls = votingDayPolls().filter((p) => p.ward === ward);
@@ -47,14 +48,16 @@ export default async function WardPage({
 
         <section className="section">
           <div style={{ display: "flex", gap: 44, flexWrap: "wrap", alignItems: "flex-start" }}>
-            <div style={{ flex: "0 1 440px" }}>
+            <div style={{ flex: "0 1 560px" }}>
               <div style={{ border: "1px solid var(--rule)", background: "#fdfcf9", padding: 10 }}>
                 <WardMap
                   shapes={shapes}
+                  roads={roads}
+                  roadLabels={roadLabels}
                   highlight={ward}
                   partner={info.partner}
                   label={t.ward.mapLabel}
-                  width={440}
+                  width={560}
                 />
               </div>
               <div style={{ display: "flex", gap: 18, marginTop: 10, fontSize: 12.5, color: "var(--ink-soft)", flexWrap: "wrap" }}>

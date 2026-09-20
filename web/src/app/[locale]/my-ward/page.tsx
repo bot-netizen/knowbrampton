@@ -2,7 +2,7 @@ import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import WardPicker from "@/components/WardPicker";
 import { DEFAULT_LOCALE, getDict, isLocale, type Locale } from "@/i18n";
-import { wardShapes } from "@/lib/wardmap";
+import { roadPaths, wardShapes } from "@/lib/wardmap";
 
 export const metadata = { title: "Find my ward" };
 
@@ -11,6 +11,7 @@ export default async function FindWard({ params }: { params: Promise<{ locale: s
   const locale: Locale = isLocale(raw) ? raw : DEFAULT_LOCALE;
   const t = getDict(locale);
   const shapes = wardShapes();
+  const { paths: roads, labels: roadLabels } = roadPaths(shapes);
 
   return (
     <>
@@ -27,6 +28,8 @@ export default async function FindWard({ params }: { params: Promise<{ locale: s
             <div style={{ flex: "0 1 560px" }}>
               <WardPicker
                 shapes={shapes}
+                roads={roads}
+                roadLabels={roadLabels}
                 locale={locale}
                 labels={{
                   locate: t.ward.locate,

@@ -1,6 +1,6 @@
 /** Shared with client components, so nothing here may touch node: builtins. */
-export const MAP_W = 560;
-export const MAP_H = 440;
+export const MAP_W = 640;
+export const MAP_H = 520;
 
 export const PAIR_COLOURS: Record<string, string> = {
   "1+5": "#a32338",
@@ -17,4 +17,17 @@ export interface WardShape {
   d: string;
   labelX: number;
   labelY: number;
+}
+
+export interface RoadPath {
+  name: string;
+  kind: "highway" | "major" | "minor";
+  d: string;
+}
+
+export interface RoadLabel {
+  name: string;
+  x: number;
+  y: number;
+  kind: "highway" | "major";
 }

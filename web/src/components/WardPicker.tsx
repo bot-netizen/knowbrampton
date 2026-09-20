@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { asset } from "@/i18n";
-import { MAP_H, MAP_W, type WardShape } from "@/lib/wardmap-shared";
+import { Roads, RoadLabels } from "./RoadLayer";
+import { MAP_H, MAP_W, type RoadLabel, type RoadPath, type WardShape } from "@/lib/wardmap-shared";
 
 type Ring = [number, number][];
 
@@ -20,10 +21,14 @@ function pointInRing(x: number, y: number, ring: Ring): boolean {
  *  no address and no coordinates ever leave the browser. */
 export default function WardPicker({
   shapes,
+  roads,
+  roadLabels,
   locale,
   labels,
 }: {
   shapes: WardShape[];
+  roads?: RoadPath[];
+  roadLabels?: RoadLabel[];
   locale: string;
   labels: { locate: string; locating: string; notFound: string; tapMap: string; mapLabel: string };
 }) {
@@ -79,12 +84,14 @@ export default function WardPicker({
         role="group"
         aria-label={labels.mapLabel}
       >
+        <rect x={0} y={0} width={MAP_W} height={MAP_H} fill="#fdfcf9" />
+        {roads && <Roads paths={roads} />}
         {shapes.map((s) => (
           <path
             key={s.ward}
             d={s.d}
             fill={s.colour}
-            fillOpacity={0.16}
+            fillOpacity={0.13}
             stroke={s.colour}
             strokeWidth={1.5}
             strokeLinejoin="round"
@@ -100,6 +107,7 @@ export default function WardPicker({
             }}
           />
         ))}
+        {roadLabels && <RoadLabels labels={roadLabels} />}
         {shapes.map((s) => (
           <g key={`l-${s.ward}`} style={{ pointerEvents: "none" }}>
             <circle cx={s.labelX} cy={s.labelY} r={15} fill="#fdfcf9" stroke={s.colour} strokeWidth={1.6} />
