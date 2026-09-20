@@ -39,8 +39,15 @@ jobs:
             if(miss.length||extra.length){console.error("locale mismatch",{miss,extra});process.exit(1)}
             console.log("locale parity OK:",a.length,"strings");
           '
-      - run: npm run build
+      - name: Build
         working-directory: web
+        # Pages serves a project site from /<repo>/. Drop this (and add a CNAME)
+        # once a custom domain is attached.
+        env:
+          NEXT_PUBLIC_BASE_PATH: /knowbrampton
+        run: |
+          npm run build
+          touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web/out

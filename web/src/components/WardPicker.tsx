@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { asset } from "@/i18n";
 import { MAP_H, MAP_W, type WardShape } from "@/lib/wardmap-shared";
 
 type Ring = [number, number][];
@@ -30,7 +31,7 @@ export default function WardPicker({
   const [error, setError] = useState<string | null>(null);
 
   const go = (ward: string) => {
-    window.location.href = `/${locale}/my-ward/${ward}/`;
+    window.location.href = asset(`/${locale}/my-ward/${ward}/`);
   };
 
   async function locate() {
@@ -44,7 +45,7 @@ export default function WardPicker({
       const pos = await new Promise<GeolocationPosition>((res, rej) =>
         navigator.geolocation.getCurrentPosition(res, rej, { timeout: 10_000 }),
       );
-      const geo = (await fetch("/data/wards.geojson").then((r) => r.json())) as {
+      const geo = (await fetch(asset("/data/wards.geojson")).then((r) => r.json())) as {
         features: { properties: { ward: string }; geometry: { coordinates: Ring[][] } }[];
       };
       const { longitude: lng, latitude: lat } = pos.coords;

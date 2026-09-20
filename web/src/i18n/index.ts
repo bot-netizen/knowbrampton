@@ -26,10 +26,20 @@ export function getDict(locale: Locale): Dict {
   return DICTS[locale] ?? DICTS[DEFAULT_LOCALE];
 }
 
+/** Deployment prefix: "" at a domain root, "/knowbrampton" on a Pages project
+ *  site. Inlined at build time by Next. */
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+/** Prefix an absolute in-site path. Next auto-prefixes next/link and next/image
+ *  but NOT hand-written <a href>, so every link we build goes through here. */
+export function asset(path: string): string {
+  return `${BASE_PATH}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
 /** Build an in-locale href. `/en/my-ward/`, `/pa/my-ward/` */
 export function href(locale: Locale, path = ""): string {
   const clean = path.replace(/^\/+|\/+$/g, "");
-  return clean ? `/${locale}/${clean}/` : `/${locale}/`;
+  return asset(clean ? `/${locale}/${clean}/` : `/${locale}/`);
 }
 
 /** Fill {placeholders} in a string. */

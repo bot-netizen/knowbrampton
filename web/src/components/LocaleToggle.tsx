@@ -1,6 +1,6 @@
 "use client";
 
-import { LOCALES, LOCALE_META, type Locale } from "@/i18n";
+import { asset, LOCALES, LOCALE_META, type Locale } from "@/i18n";
 
 /** Remembers the choice so the root gate honours it next visit. */
 export default function LocaleToggle({ locale, path }: { locale: Locale; path: string }) {
@@ -10,7 +10,7 @@ export default function LocaleToggle({ locale, path }: { locale: Locale; path: s
       {LOCALES.map((l) => (
         <a
           key={l}
-          href={clean ? `/${l}/${clean}/` : `/${l}/`}
+          href={asset(clean ? `/${l}/${clean}/` : `/${l}/`)}
           lang={LOCALE_META[l].htmlLang}
           hrefLang={LOCALE_META[l].htmlLang}
           aria-current={l === locale ? "true" : undefined}
