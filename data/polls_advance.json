@@ -1,0 +1,133 @@
+[
+ {
+  "name": "Century Gardens Recreation Centre",
+  "address": "340 Vodden St E",
+  "ward": "1",
+  "sessions": [
+   "Saturday, October 10  – 10 a.m. to 5 p.m.",
+   "Sunday, October 11 – 10 a.m. to 5 p.m.",
+   "Friday, October 16 – 12 p.m. to 8 p.m.",
+   "Saturday, October 17 – 10 a.m. to 5 p.m."
+  ],
+  "wait_time": null,
+  "lng": -79.75373,
+  "lat": 43.708165
+ },
+ {
+  "name": "Jim Archdekin Recreation Centre",
+  "address": "292 Conestoga Dr",
+  "ward": "2",
+  "sessions": [
+   "Friday, October 16 – 12 p.m. to 8 p.m.",
+   "Saturday, October 17 – 10 a.m. to 5 p.m."
+  ],
+  "wait_time": null,
+  "lng": -79.789576,
+  "lat": 43.717372
+ },
+ {
+  "name": "Brampton City Hall",
+  "address": "2 Wellington St W",
+  "ward": "3",
+  "sessions": [
+   "Friday, October 9 – 12 p.m. to 8 p.m.",
+   "Saturday, October 10  – 10 a.m. to 5 p.m.",
+   "Sunday, October 11 – 10 a.m. to 5 p.m.",
+   "Friday, October 16 – 12 p.m. to 8 p.m.",
+   "Saturday, October 17 – 10 a.m. to 5 p.m."
+  ],
+  "wait_time": null,
+  "lng": -79.759538,
+  "lat": 43.685045
+ },
+ {
+  "name": "Susan Fennell Sportsplex",
+  "address": "500 Ray Lawson Blvd",
+  "ward": "4",
+  "sessions": [
+   "Friday, October 16 – 12 p.m. to 8 p.m.",
+   "Saturday, October 17 – 10 a.m. to 5 p.m."
+  ],
+  "wait_time": null,
+  "lng": -79.735843,
+  "lat": 43.652888
+ },
+ {
+  "name": "McClure Public School",
+  "address": "50 Parity Rd",
+  "ward": "5",
+  "sessions": [
+   "Friday, October 16 – 12 p.m. to 8 p.m.",
+   "Saturday, October 17 – 10 a.m. to 5 p.m."
+  ],
+  "wait_time": null,
+  "lng": -79.792903,
+  "lat": 43.671028
+ },
+ {
+  "name": "Cassie Campbell Community Centre",
+  "address": "1050 Sandalwood Pkwy W",
+  "ward": "6",
+  "sessions": [
+   "Saturday, October 10  – 10 a.m. to 5 p.m.",
+   "Sunday, October 11 – 10 a.m. to 5 p.m.",
+   "Friday, October 16 – 12 p.m. to 8 p.m.",
+   "Saturday, October 17 – 10 a.m. to 5 p.m."
+  ],
+  "wait_time": null,
+  "lng": -79.824453,
+  "lat": 43.696943
+ },
+ {
+  "name": "Earnscliffe Recreation Centre",
+  "address": "44 Eastbourne Dr",
+  "ward": "7",
+  "sessions": [
+   "Friday, October 16 – 12 p.m. to 8 p.m.",
+   "Saturday, October 17 – 10 a.m. to 5 p.m."
+  ],
+  "wait_time": null,
+  "lng": -79.699336,
+  "lat": 43.723662
+ },
+ {
+  "name": "Greenbriar Recreation Centre",
+  "address": "1100 Central Park Dr",
+  "ward": "8",
+  "sessions": [
+   "Saturday, October 10  – 10 a.m. to 5 p.m.",
+   "Sunday, October 11 – 10 a.m. to 5 p.m.",
+   "Friday, October 16 – 12 p.m. to 8 p.m.",
+   "Saturday, October 17 – 10 a.m. to 5 p.m."
+  ],
+  "wait_time": null,
+  "lng": -79.717237,
+  "lat": 43.735994
+ },
+ {
+  "name": "Brampton Soccer Centre",
+  "address": "1495 Sandalwood Pkwy E",
+  "ward": "9",
+  "sessions": [
+   "Friday, October 16 – 12 p.m. to 8 p.m.",
+   "Saturday, October 17 – 10 a.m. to 5 p.m."
+  ],
+  "wait_time": null,
+  "lng": -79.769041,
+  "lat": 43.743712
+ },
+ {
+  "name": "Gore Meadows Community Centre",
+  "address": "10150 The Gore Rd",
+  "ward": "10",
+  "sessions": [
+   "Saturday, October 10  – 10 a.m. to 5 p.m.",
+   "Sunday, October 11 – 10 a.m. to 5 p.m.",
+   "Friday, October 16 – 12 p.m. to 8 p.m.",
+   "Saturday, October 17 – 10 a.m. to 5 p.m."
+  ],
+  "wait_time": null,
+  "lng": -79.694534,
+  "lat": 43.794215
+ }
+]

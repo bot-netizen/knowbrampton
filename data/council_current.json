@@ -1,0 +1,142 @@
+[
+ {
+  "name": "Patrick Brown",
+  "role": "Mayor",
+  "wards": [],
+  "email": "patrick.brown@brampton.ca",
+  "phone": "905.874.2600",
+  "photo_url": "https://www.brampton.ca/EN/City-Hall/Mayor-Office/images/PatricBrown.jpg",
+  "page_url": "https://www.brampton.ca/en/City-Hall/Mayor-Office/Pages/Welcome.aspx",
+  "pair": null
+ },
+ {
+  "name": "Rowena Santos",
+  "role": "City Councillor",
+  "wards": [
+   "1",
+   "5"
+  ],
+  "email": "rowena.santos@brampton.ca",
+  "phone": "905.874.2605",
+  "photo_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/PublishingImages/headshots/councillorSantos.jpg",
+  "page_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/Rowena-Santos/Pages/Welcome.aspx",
+  "pair": "1+5"
+ },
+ {
+  "name": "Paul Vicente",
+  "role": "Regional Councillor",
+  "wards": [
+   "1",
+   "5"
+  ],
+  "email": "paul.vicente@brampton.ca",
+  "phone": "905.874.2601",
+  "photo_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/PublishingImages/headshots/councillorVicente.jpg",
+  "page_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/Paul-Vicente/Pages/Welcome.aspx",
+  "pair": "1+5"
+ },
+ {
+  "name": "Navjit Kaur Brar",
+  "role": "City Councillor",
+  "wards": [
+   "2",
+   "6"
+  ],
+  "email": "navjitkaur.brar@brampton.ca",
+  "phone": "905.874.2606",
+  "photo_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/PublishingImages/headshots/councillorBrar.jpg",
+  "page_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/Navjit-Kaur-Brar/Pages/Welcome.aspx",
+  "pair": "2+6"
+ },
+ {
+  "name": "Michael Palleschi",
+  "role": "Regional Councillor",
+  "wards": [
+   "2",
+   "6"
+  ],
+  "email": "michael.palleschi@brampton.ca",
+  "phone": "905.874.2661",
+  "photo_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/PublishingImages/headshots/councillorPalleschi.jpg",
+  "page_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/Michael-Palleschi/Pages/Welcome.aspx",
+  "pair": "2+6"
+ },
+ {
+  "name": "Dennis Keenan",
+  "role": "City Councillor",
+  "wards": [
+   "3",
+   "4"
+  ],
+  "email": "dennis.keenan@brampton.ca",
+  "phone": "905.874.2603",
+  "photo_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/PublishingImages/headshots/councillorKeenan.jpg",
+  "page_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/Dennis-Keenan/Pages/Welcome.aspx",
+  "pair": "3+4"
+ },
+ {
+  "name": "Martin Medeiros",
+  "role": "Regional Councillor",
+  "wards": [
+   "3",
+   "4"
+  ],
+  "email": "martin.medeiros@brampton.ca",
+  "phone": "905.874.2634",
+  "photo_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/PublishingImages/headshots/councillorMedeiros.jpg",
+  "page_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/Martin-Medeiros/Pages/Welcome.aspx",
+  "pair": "3+4"
+ },
+ {
+  "name": "Rod Power",
+  "role": "City Councillor",
+  "wards": [
+   "7",
+   "8"
+  ],
+  "email": "rod.power@brampton.ca",
+  "phone": "905.874.2671",
+  "photo_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/PublishingImages/headshots/councillorPower.jpg",
+  "page_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/Rod-Power/Pages/Welcome.aspx",
+  "pair": "7+8"
+ },
+ {
+  "name": "Pat Fortini",
+  "role": "Regional Councillor",
+  "wards": [
+   "7",
+   "8"
+  ],
+  "email": "pat.fortini@brampton.ca",
+  "phone": "905.874.2611",
+  "photo_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/PublishingImages/headshots/councillorFortini.jpg",
+  "page_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/Pat-Fortini/Pages/Welcome.aspx",
+  "pair": "7+8"
+ },
+ {
+  "name": "Harkirat Singh",
+  "role": "City Councillor",
+  "wards": [
+   "9",
+   "10"
+  ],
+  "email": "harkirat.singh@brampton.ca",
+  "phone": "905.874.2610",
+  "photo_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/PublishingImages/headshots/councillorSingh.jpg",
+  "page_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/Harkirat-Singh/Pages/Welcome.aspx",
+  "pair": "9+10"
+ },
+ {
+  "name": "Gurpartap Toor",
+  "role": "Regional Councillor",
+  "wards": [
+   "9",
+   "10"
+  ],
+  "email": "gurpartap.toor@brampton.ca",
+  "phone": "905.874.2609",
+  "photo_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/PublishingImages/headshots/councillorToor.jpg",
+  "page_url": "https://www.brampton.ca/EN/City-Hall/CouncilOffice/Gurpartap-Singh-Toor/Pages/Welcome.aspx",
+  "pair": "9+10"
+ }
+]

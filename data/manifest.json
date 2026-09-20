@@ -1,0 +1,85 @@
+{
+ "generated_at": "2026-09-20T17:48:59+00:00",
+ "election_day": "2026-10-26",
+ "advance_voting_days": [
+  "2026-10-09",
+  "2026-10-10",
+  "2026-10-11",
+  "2026-10-16",
+  "2026-10-17"
+ ],
+ "outputs": [
+  {
+   "file": "wards.geojson",
+   "records": 10,
+   "bytes": 103961,
+   "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Planning_Local_Government/FeatureServer/3",
+   "note": "simplified at 0.00035 degrees for browser point-in-polygon",
+   "retrieved_at": "2026-09-20T17:48:57+00:00"
+  },
+  {
+   "file": "ward_pairs.json",
+   "records": 5,
+   "bytes": 140,
+   "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Planning_Local_Government/FeatureServer/3",
+   "note": "derived from the ELECTORAL_AREA text, not hardcoded",
+   "retrieved_at": "2026-09-20T17:48:57+00:00"
+  },
+  {
+   "file": "polls_voting_day.json",
+   "records": 148,
+   "bytes": 28167,
+   "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/2026VotingDayLocations_PRD/FeatureServer/0",
+   "note": "election day 2026-10-26; assigned poll only",
+   "retrieved_at": "2026-09-20T17:48:57+00:00"
+  },
+  {
+   "file": "polls_advance.json",
+   "records": 10,
+   "bytes": 3277,
+   "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/2026AdvanceVotingLocations_PRD/FeatureServer/0",
+   "note": "advance voting 9,10,11,16,17 Oct 2026; any location, any ward. WAIT_TIME is live only on voting days",
+   "retrieved_at": "2026-09-20T17:48:57+00:00"
+  },
+  {
+   "file": "poll_subdivisions.json",
+   "records": 148,
+   "bytes": 21081,
+   "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Brampton_Elections/FeatureServer/0",
+   "note": "",
+   "retrieved_at": "2026-09-20T17:48:57+00:00"
+  },
+  {
+   "file": "council_current.json",
+   "records": 11,
+   "bytes": 4342,
+   "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Term_of_Council_Elected_Officials_2022_to_2026/FeatureServer/0",
+   "note": "2022-2026 term; layer repeats each councillor per ward, collapsed here to ward pairs",
+   "retrieved_at": "2026-09-20T17:48:57+00:00"
+  },
+  {
+   "file": "results_2018.json",
+   "records": 8362,
+   "bytes": 1470438,
+   "source": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/2018_Election_Results/FeatureServer/0",
+   "note": "poll-level results; 2022 official results are PDF only and not yet parsed",
+   "retrieved_at": "2026-09-20T17:48:59+00:00"
+  },
+  {
+   "file": "candidates.json",
+   "records": 125,
+   "bytes": 62361,
+   "source": "https://www.brampton.ca/EN/City-Hall/Election/Candidates/Pages/candidateListing.aspx",
+   "note": "certified 2026-08-25; field frozen. positions[] intentionally empty until sourced",
+   "retrieved_at": "2026-09-20T17:48:59+00:00"
+  },
+  {
+   "file": "candidate_counts.json",
+   "records": 21,
+   "bytes": 1178,
+   "source": "https://www.brampton.ca/EN/City-Hall/Election/Candidates/Pages/candidateListing.aspx",
+   "note": "sanity check on the scrape",
+   "retrieved_at": "2026-09-20T17:48:59+00:00"
+  }
+ ]
+}

@@ -1,0 +1,1038 @@
+[
+ {
+  "poll_id": "VD0104",
+  "ward": 1,
+  "subdivision": "006",
+  "name": "École élémentaire Carrefour des jeunes",
+  "address": "375 CENTRE ST N"
+ },
+ {
+  "poll_id": "VD0101",
+  "ward": 1,
+  "subdivision": "038",
+  "name": "Our Lady of Fatima Catholic School",
+  "address": "39 SUNSET BLVD"
+ },
+ {
+  "poll_id": "VD0102",
+  "ward": 1,
+  "subdivision": "039",
+  "name": "Glendale Public School",
+  "address": "35 SUNSET BLVD"
+ },
+ {
+  "poll_id": "VD0103",
+  "ward": 1,
+  "subdivision": "001",
+  "name": "St. Cecilia Elementary - Westervelts Corners Public School",
+  "address": "10 & 20 BRICKYARD WAY"
+ },
+ {
+  "poll_id": "VD0105",
+  "ward": 1,
+  "subdivision": "016",
+  "name": "Nibi Emosaawdang Public School",
+  "address": "250 CENTRE ST N"
+ },
+ {
+  "poll_id": "VD0108",
+  "ward": 1,
+  "subdivision": "009",
+  "name": "Arnott Charlton Public School",
+  "address": "140 WINTERFOLD DR"
+ },
+ {
+  "poll_id": "VD0111",
+  "ward": 1,
+  "subdivision": "029",
+  "name": "Madoc Drive Public School",
+  "address": "49 MADOC DR"
+ },
+ {
+  "poll_id": "VD0109",
+  "ward": 1,
+  "subdivision": "009",
+  "name": "St. Joachim Elementary School",
+  "address": "435 RUTHERFORD RD N"
+ },
+ {
+  "poll_id": "VD0112",
+  "ward": 1,
+  "subdivision": "031",
+  "name": "Father C.W. Sullivan School",
+  "address": "62 SEABORN RD"
+ },
+ {
+  "poll_id": "VD0107",
+  "ward": 1,
+  "subdivision": "026",
+  "name": "The Rose Brampton",
+  "address": "1 THEATRE LN"
+ },
+ {
+  "poll_id": "VD0106",
+  "ward": 1,
+  "subdivision": "036",
+  "name": "Venvi Greenway*",
+  "address": "100 KEN WHILLANS DR"
+ },
+ {
+  "poll_id": "VD0201",
+  "ward": 2,
+  "subdivision": "007",
+  "name": "St. Josephine Bakhita Catholic Elementary School",
+  "address": "430 VAN KIRK DR"
+ },
+ {
+  "poll_id": "VD0110",
+  "ward": 1,
+  "subdivision": "019",
+  "name": "Century Gardens Recreation Centre **",
+  "address": "340 VODDEN ST E"
+ },
+ {
+  "poll_id": "VD0202",
+  "ward": 2,
+  "subdivision": "013",
+  "name": "Burnt Elm Public School",
+  "address": "85 BURNT ELM DR"
+ },
+ {
+  "poll_id": "VD0204",
+  "ward": 2,
+  "subdivision": "003",
+  "name": "St. Rita Catholic Elementary School",
+  "address": "30 SUMMER VALLEY DR"
+ },
+ {
+  "poll_id": "VD0209",
+  "ward": 2,
+  "subdivision": "042",
+  "name": "Sacred Heart Elementary School",
+  "address": "24 KERWOOD PL"
+ },
+ {
+  "poll_id": "VD0210",
+  "ward": 2,
+  "subdivision": "043",
+  "name": "Robert H. Lagerquist Sr. Public School",
+  "address": "105 RICHVALE DR N"
+ },
+ {
+  "poll_id": "VD0211",
+  "ward": 2,
+  "subdivision": "047",
+  "name": "St. Agnes Elementary School",
+  "address": "103 RICHVALE DR S"
+ },
+ {
+  "poll_id": "VD0203",
+  "ward": 2,
+  "subdivision": "006",
+  "name": "Snelgrove Community Centre",
+  "address": "11692 HURONTARIO ST"
+ },
+ {
+  "poll_id": "VD0212",
+  "ward": 2,
+  "subdivision": "046",
+  "name": "Esker Lake Public School",
+  "address": "10420 HEART LAKE RD N"
+ },
+ {
+  "poll_id": "VD0206",
+  "ward": 2,
+  "subdivision": "030",
+  "name": "Paul Palleschi Recreation Centre **",
+  "address": "30 LOAFERS LAKE LN"
+ },
+ {
+  "poll_id": "VD0205",
+  "ward": 2,
+  "subdivision": "036",
+  "name": "St. Stephen Elementary School",
+  "address": "17 COLONEL BERTRAM RD"
+ },
+ {
+  "poll_id": "VD0207",
+  "ward": 2,
+  "subdivision": "025",
+  "name": "Jim Archdekin Recreation Centre",
+  "address": "292 CONESTOGA DR"
+ },
+ {
+  "poll_id": "VD0208",
+  "ward": 2,
+  "subdivision": "022",
+  "name": "Woodhall Park Retirement Village *",
+  "address": "10260 KENNEDY RD N"
+ },
+ {
+  "poll_id": "VD0301",
+  "ward": 3,
+  "subdivision": "038",
+  "name": "Ridgeview Public School",
+  "address": "25 BRENDA AVE"
+ },
+ {
+  "poll_id": "VD0304",
+  "ward": 3,
+  "subdivision": "037",
+  "name": "Centennial Sr. Public School",
+  "address": "50 LADORE DR"
+ },
+ {
+  "poll_id": "VD0302",
+  "ward": 3,
+  "subdivision": "034",
+  "name": "Bishop Francis Allen School",
+  "address": "325 MCMURCHY AVE S"
+ },
+ {
+  "poll_id": "VD0307",
+  "ward": 3,
+  "subdivision": "013",
+  "name": "Helen Wilson Public School",
+  "address": "9 ABBEY RD"
+ },
+ {
+  "poll_id": "VD0306",
+  "ward": 3,
+  "subdivision": "005",
+  "name": "Sir Winston Churchill Public School",
+  "address": "89 ARDGLEN DR"
+ },
+ {
+  "poll_id": "VD0309",
+  "ward": 3,
+  "subdivision": "016",
+  "name": "Parkway Public School",
+  "address": "24 DUNCAN BULL DR"
+ },
+ {
+  "poll_id": "VD0312",
+  "ward": 3,
+  "subdivision": "023",
+  "name": "Turner Fenton Secondary School",
+  "address": "7935 KENNEDY RD S"
+ },
+ {
+  "poll_id": "VD0303",
+  "ward": 3,
+  "subdivision": "042",
+  "name": "The Alderlea **",
+  "address": "40 ELIZABETH ST S"
+ },
+ {
+  "poll_id": "VD0305",
+  "ward": 3,
+  "subdivision": "045",
+  "name": "Amica Peel Village  *",
+  "address": "223 MAIN ST S"
+ },
+ {
+  "poll_id": "VD0308",
+  "ward": 3,
+  "subdivision": "015",
+  "name": "Tullamore Care Community",
+  "address": "133 KENNEDY RD S"
+ },
+ {
+  "poll_id": "VD0313",
+  "ward": 3,
+  "subdivision": "023",
+  "name": "Norton Place Park Community Centre",
+  "address": "170 CLARK BLVD"
+ },
+ {
+  "poll_id": "VD0401",
+  "ward": 4,
+  "subdivision": "002",
+  "name": "Eldorado Public School",
+  "address": "25 WARDSVILLE DR"
+ },
+ {
+  "poll_id": "VD0311",
+  "ward": 3,
+  "subdivision": "025",
+  "name": "Peel Village Golf Course",
+  "address": "29A HARTFORD TRAIL"
+ },
+ {
+  "poll_id": "VD0402",
+  "ward": 4,
+  "subdivision": "010",
+  "name": "Churchville Public School",
+  "address": "90 BONNIE BRAES DR"
+ },
+ {
+  "poll_id": "VD0403",
+  "ward": 4,
+  "subdivision": "006",
+  "name": "Copeland Public School",
+  "address": "5 YOUNG DR"
+ },
+ {
+  "poll_id": "VD0405",
+  "ward": 4,
+  "subdivision": "015",
+  "name": "St. Monica Elementary School",
+  "address": "60 STERRITT DR"
+ },
+ {
+  "poll_id": "VD0407",
+  "ward": 4,
+  "subdivision": "020",
+  "name": "St. Brigid Elementary School",
+  "address": "81 TORRANCE WOODS"
+ },
+ {
+  "poll_id": "VD0408",
+  "ward": 4,
+  "subdivision": "024",
+  "name": "Morton Way Public School",
+  "address": "200 MORTON WAY"
+ },
+ {
+  "poll_id": "VD0310",
+  "ward": 3,
+  "subdivision": "020",
+  "name": "William G. Davis Sr. Public School",
+  "address": "491 BARTLEY BULL PKWY"
+ },
+ {
+  "poll_id": "VD0410",
+  "ward": 4,
+  "subdivision": "032",
+  "name": "Hickory Wood Public School",
+  "address": "630 RAY LAWSON BLVD"
+ },
+ {
+  "poll_id": "VD0415",
+  "ward": 4,
+  "subdivision": "040",
+  "name": "Fletcher's Creek Sr. Public School",
+  "address": "92 MALTA AVE"
+ },
+ {
+  "poll_id": "VD0411",
+  "ward": 4,
+  "subdivision": "034",
+  "name": "Pauline Vanier Catholic Elementary School",
+  "address": "56 OAKLEA BLVD"
+ },
+ {
+  "poll_id": "VD0406",
+  "ward": 4,
+  "subdivision": "017",
+  "name": "Burton Manor*",
+  "address": "5 STERRITT DR"
+ },
+ {
+  "poll_id": "VD0416",
+  "ward": 4,
+  "subdivision": "039",
+  "name": "Cherrytree Public School",
+  "address": "155 CHERRYTREE DR"
+ },
+ {
+  "poll_id": "VD0404",
+  "ward": 4,
+  "subdivision": "013",
+  "name": "Bob Callahan Flower City Seniors Centre",
+  "address": "8870 MCLAUGHLIN RD S"
+ },
+ {
+  "poll_id": "VD0409",
+  "ward": 4,
+  "subdivision": "030",
+  "name": "Holland Christian Homes*",
+  "address": "7900 MCLAUGHLIN RD S"
+ },
+ {
+  "poll_id": "VD0412",
+  "ward": 4,
+  "subdivision": "043",
+  "name": "Extendicare Brampton*",
+  "address": "7891 MCLAUGHLIN RD"
+ },
+ {
+  "poll_id": "VD0413",
+  "ward": 4,
+  "subdivision": "040",
+  "name": "Susan Fennell Sportsplex **",
+  "address": "500 RAY LAWSON BLVD"
+ },
+ {
+  "poll_id": "VD0414",
+  "ward": 4,
+  "subdivision": "042",
+  "name": "Southbrook Retirement Residence *",
+  "address": "400 RAY LAWSON BLVD"
+ },
+ {
+  "poll_id": "VD0501",
+  "ward": 5,
+  "subdivision": "001",
+  "name": "Jean Augustine Secondary School",
+  "address": "500 ELBERN MARKELL DR"
+ },
+ {
+  "poll_id": "VD0502",
+  "ward": 5,
+  "subdivision": "007",
+  "name": "Lorenville Public School",
+  "address": "10 LORENVILLE DR"
+ },
+ {
+  "poll_id": "VD0503",
+  "ward": 5,
+  "subdivision": "006",
+  "name": "Ingleborough Public School",
+  "address": "60 INGLEBOROUGH DR"
+ },
+ {
+  "poll_id": "VD0504",
+  "ward": 5,
+  "subdivision": "011",
+  "name": "James Potter Public School",
+  "address": "9775 CREDITVIEW RD"
+ },
+ {
+  "poll_id": "VD0505",
+  "ward": 5,
+  "subdivision": "010",
+  "name": "St. Jean-Marie Vianney Catholic Elementary School",
+  "address": "75 JORDENSEN DR"
+ },
+ {
+  "poll_id": "VD0506",
+  "ward": 5,
+  "subdivision": "008",
+  "name": "Springbrook Public School **",
+  "address": "145 JORDENSEN DR"
+ },
+ {
+  "poll_id": "VD0507",
+  "ward": 5,
+  "subdivision": "020",
+  "name": "St. Ursula Elementary School",
+  "address": "11 DWELLERS RD"
+ },
+ {
+  "poll_id": "VD0509",
+  "ward": 5,
+  "subdivision": "027",
+  "name": "Our Lady of Peace Separate School",
+  "address": "15 FINCHAM AVE"
+ },
+ {
+  "poll_id": "VD0510",
+  "ward": 5,
+  "subdivision": "033",
+  "name": "Beatty-Fleming Sr. Public School",
+  "address": "21 CAMPBELL DR"
+ },
+ {
+  "poll_id": "VD0511",
+  "ward": 5,
+  "subdivision": "033",
+  "name": "Northwood Public School",
+  "address": "70 GRETNA DR"
+ },
+ {
+  "poll_id": "VD0508",
+  "ward": 5,
+  "subdivision": "020",
+  "name": "Homestead Public School",
+  "address": "99 FLETCHERS CREEK BLVD"
+ },
+ {
+  "poll_id": "VD0512",
+  "ward": 5,
+  "subdivision": "037",
+  "name": "St. Maria Goretti Elementary School",
+  "address": "121 ROYAL ORCHARD DR"
+ },
+ {
+  "poll_id": "VD0513",
+  "ward": 5,
+  "subdivision": "037",
+  "name": "Royal Orchard Middle School",
+  "address": "77 ROYAL ORCHARD DR"
+ },
+ {
+  "poll_id": "VD0514",
+  "ward": 5,
+  "subdivision": "040",
+  "name": "Peel Manor Long Term Care Centre*",
+  "address": "525 MAIN ST N"
+ },
+ {
+  "poll_id": "VD0515",
+  "ward": 5,
+  "subdivision": "042",
+  "name": "Nance Horwood Place*",
+  "address": "529 MAIN ST N"
+ },
+ {
+  "poll_id": "VD0602",
+  "ward": 6,
+  "subdivision": "055",
+  "name": "Tribune Drive Public School",
+  "address": "30 TRIBUNE DR"
+ },
+ {
+  "poll_id": "VD0601",
+  "ward": 6,
+  "subdivision": "059",
+  "name": "Dolson Public School",
+  "address": "95 REMEMBRANCE RD"
+ },
+ {
+  "poll_id": "VD0603",
+  "ward": 6,
+  "subdivision": "054",
+  "name": "St. Daniel Comboni Catholic Elementary School",
+  "address": "120 VETERANS DR"
+ },
+ {
+  "poll_id": "VD0604",
+  "ward": 6,
+  "subdivision": "042",
+  "name": "Aylesbury Public School",
+  "address": "25 AYLESBURY DR"
+ },
+ {
+  "poll_id": "VD0605",
+  "ward": 6,
+  "subdivision": "072",
+  "name": "Red Cedar Public School",
+  "address": "595 BRISDALE DR"
+ },
+ {
+  "poll_id": "VD0606",
+  "ward": 6,
+  "subdivision": "012",
+  "name": "Brisdale Public School",
+  "address": "370 BRISDALE DR"
+ },
+ {
+  "poll_id": "VD0608",
+  "ward": 6,
+  "subdivision": "037",
+  "name": "McCrimmon Middle School",
+  "address": "83 MCCRIMMON DR"
+ },
+ {
+  "poll_id": "VD0609",
+  "ward": 6,
+  "subdivision": "032",
+  "name": "Guardian Angels Elementary School",
+  "address": "62 HEATHERDALE DR"
+ },
+ {
+  "poll_id": "VD0611",
+  "ward": 6,
+  "subdivision": "073",
+  "name": "Malala Yousafzai Public School",
+  "address": "565 REMEMBRANCE RD"
+ },
+ {
+  "poll_id": "VD0610",
+  "ward": 6,
+  "subdivision": "032",
+  "name": "Worthington Public School",
+  "address": "71 WORTHINGTON AVE"
+ },
+ {
+  "poll_id": "VD0612",
+  "ward": 6,
+  "subdivision": "018",
+  "name": "St. Lucy Catholic Elementary School",
+  "address": "25 KANATA RD"
+ },
+ {
+  "poll_id": "VD0613",
+  "ward": 6,
+  "subdivision": "018",
+  "name": "Cheyne Middle School",
+  "address": "236 QUEEN MARY DR"
+ },
+ {
+  "poll_id": "VD0616",
+  "ward": 6,
+  "subdivision": "074",
+  "name": "Huttonville Public School",
+  "address": "2322 EMBLETON RD"
+ },
+ {
+  "poll_id": "VD0617",
+  "ward": 6,
+  "subdivision": "076",
+  "name": "Whaley's Corners Public School",
+  "address": "140 HOWARD STEWART RD"
+ },
+ {
+  "poll_id": "VD0618",
+  "ward": 6,
+  "subdivision": "045",
+  "name": "École Secondaire Jeunes Sans Frontières",
+  "address": "7585 FINANCIAL DR"
+ },
+ {
+  "poll_id": "VD0619",
+  "ward": 6,
+  "subdivision": "048",
+  "name": "Roberta Bondar Public School",
+  "address": "30 PANTOMINE BLVD"
+ },
+ {
+  "poll_id": "VD0701",
+  "ward": 7,
+  "subdivision": "003",
+  "name": "St. Marguerite Bourgeoys Separate School",
+  "address": "550 NORTH PARK DR"
+ },
+ {
+  "poll_id": "VD0607",
+  "ward": 6,
+  "subdivision": "015",
+  "name": "Cassie Campbell Community Centre**",
+  "address": "1050 SANDALWOOD PKWY W"
+ },
+ {
+  "poll_id": "VD0703",
+  "ward": 7,
+  "subdivision": "009",
+  "name": "North Bramalea United Church",
+  "address": "363 HOWDEN BLVD"
+ },
+ {
+  "poll_id": "VD0702",
+  "ward": 7,
+  "subdivision": "006",
+  "name": "Russell D. Barber Public School",
+  "address": "255 NORTH PARK DR"
+ },
+ {
+  "poll_id": "VD0705",
+  "ward": 7,
+  "subdivision": "015",
+  "name": "Massey Street Public School",
+  "address": "95 MASSEY ST"
+ },
+ {
+  "poll_id": "VD0704",
+  "ward": 7,
+  "subdivision": "011",
+  "name": "École élémentaire catholique Sainte-Jeanne-d'Arc",
+  "address": "25 LAURELCREST ST"
+ },
+ {
+  "poll_id": "VD0706",
+  "ward": 7,
+  "subdivision": "016",
+  "name": "St. Anthony Elementary School",
+  "address": "950 NORTH PARK DR"
+ },
+ {
+  "poll_id": "VD0615",
+  "ward": 6,
+  "subdivision": "024",
+  "name": "Edenbrook Hill Public School",
+  "address": "61 EDENBROOK HILL DR"
+ },
+ {
+  "poll_id": "VD0614",
+  "ward": 6,
+  "subdivision": "024",
+  "name": "St. Angela Merici Catholic Elementary School",
+  "address": "83 EDENBROOK HILL DR"
+ },
+ {
+  "poll_id": "VD0708",
+  "ward": 7,
+  "subdivision": "024",
+  "name": "Hilldale Public School",
+  "address": "100 HILLDALE CRES"
+ },
+ {
+  "poll_id": "VD0709",
+  "ward": 7,
+  "subdivision": "026",
+  "name": "Hanover Public School",
+  "address": "215 HANOVER RD"
+ },
+ {
+  "poll_id": "VD0710",
+  "ward": 7,
+  "subdivision": "030",
+  "name": "Knightsbridge Senior Centre",
+  "address": "1A KNIGHTSBRIDGE RD"
+ },
+ {
+  "poll_id": "VD0707",
+  "ward": 7,
+  "subdivision": "022",
+  "name": "Williams Parkway Sr. Public School",
+  "address": "1285 WILLIAMS PKWY"
+ },
+ {
+  "poll_id": "VD0711",
+  "ward": 7,
+  "subdivision": "043",
+  "name": "Balmoral Drive Sr. Public School",
+  "address": "233 BALMORAL DR"
+ },
+ {
+  "poll_id": "VD0712",
+  "ward": 7,
+  "subdivision": "039",
+  "name": "Aloma Crescent Public School",
+  "address": "57 ALOMA CRES"
+ },
+ {
+  "poll_id": "VD0714",
+  "ward": 7,
+  "subdivision": "050",
+  "name": "Dorset Drive Public School",
+  "address": "100 DORSET DR"
+ },
+ {
+  "poll_id": "VD0713",
+  "ward": 7,
+  "subdivision": "046",
+  "name": "Earnscliffe Recreation Centre **",
+  "address": "44 EASTBOURNE DR"
+ },
+ {
+  "poll_id": "VD0803",
+  "ward": 8,
+  "subdivision": "004",
+  "name": "Jefferson Public School",
+  "address": "48 JEFFERSON RD"
+ },
+ {
+  "poll_id": "VD0802",
+  "ward": 8,
+  "subdivision": "004",
+  "name": "St. John Bosco School",
+  "address": "1025 NORTH PARK DR"
+ },
+ {
+  "poll_id": "VD0804",
+  "ward": 8,
+  "subdivision": "010",
+  "name": "Greenbriar Recreation Centre **",
+  "address": "1100 CENTRAL PARK DR"
+ },
+ {
+  "poll_id": "VD0805",
+  "ward": 8,
+  "subdivision": "012",
+  "name": "Goldcrest Public School",
+  "address": "24 GOLDCREST RD"
+ },
+ {
+  "poll_id": "VD0806",
+  "ward": 8,
+  "subdivision": "017",
+  "name": "Georges Vanier Catholic School",
+  "address": "28 FINCHGATE BLVD"
+ },
+ {
+  "poll_id": "VD0808",
+  "ward": 8,
+  "subdivision": "028",
+  "name": "Red Willow Public School",
+  "address": "80 REDWILLOW RD"
+ },
+ {
+  "poll_id": "VD0809",
+  "ward": 8,
+  "subdivision": "028",
+  "name": "Father Francis McSpiritt Catholic Elementary School",
+  "address": "55 LEXINGTON RD"
+ },
+ {
+  "poll_id": "VD0811",
+  "ward": 8,
+  "subdivision": "045",
+  "name": "Walnut Grove Public School",
+  "address": "10 PINESTAFF RD"
+ },
+ {
+  "poll_id": "VD0810",
+  "ward": 8,
+  "subdivision": "031",
+  "name": "Calderstone Middle School",
+  "address": "160 CALDERSTONE RD"
+ },
+ {
+  "poll_id": "VD0813",
+  "ward": 8,
+  "subdivision": "042",
+  "name": "Claireville Public School",
+  "address": "97 GALLUCCI CRES"
+ },
+ {
+  "poll_id": "VD0801",
+  "ward": 8,
+  "subdivision": "001",
+  "name": "Professor's Lake Recreation Centre",
+  "address": "1660 NORTH PARK DR"
+ },
+ {
+  "poll_id": "VD0901",
+  "ward": 9,
+  "subdivision": "003",
+  "name": "Ross Drive Public School",
+  "address": "40 ROSS DR"
+ },
+ {
+  "poll_id": "VD0812",
+  "ward": 8,
+  "subdivision": "041",
+  "name": "Riverstone Community Centre",
+  "address": "195 DON MINAKER DR"
+ },
+ {
+  "poll_id": "VD0904",
+  "ward": 9,
+  "subdivision": "053",
+  "name": "Countryside Village Public School",
+  "address": "40 DOLBYHILL DR"
+ },
+ {
+  "poll_id": "VD0907",
+  "ward": 9,
+  "subdivision": "015",
+  "name": "Springdale Public School",
+  "address": "100 DEWSIDE DR"
+ },
+ {
+  "poll_id": "VD0905",
+  "ward": 9,
+  "subdivision": "011",
+  "name": "Carberry Public School",
+  "address": "526 FERNFOREST DR"
+ },
+ {
+  "poll_id": "VD0906",
+  "ward": 9,
+  "subdivision": "016",
+  "name": "Blessed Michael J. McGivney Catholic School",
+  "address": "450 FERNFOREST DR"
+ },
+ {
+  "poll_id": "VD0908",
+  "ward": 9,
+  "subdivision": "022",
+  "name": "Our Lady of Providence Elementary School",
+  "address": "35 BLACK OAK DR"
+ },
+ {
+  "poll_id": "VD0909",
+  "ward": 9,
+  "subdivision": "022",
+  "name": "Fernforest Public School",
+  "address": "275 FERNFOREST DR"
+ },
+ {
+  "poll_id": "VD0910",
+  "ward": 9,
+  "subdivision": "031",
+  "name": "Hewson Public School",
+  "address": "235 FATHER TOBIN RD"
+ },
+ {
+  "poll_id": "VD0912",
+  "ward": 9,
+  "subdivision": "034",
+  "name": "Sunny View Middle School",
+  "address": "30 CHAPPARAL DR"
+ },
+ {
+  "poll_id": "VD0914",
+  "ward": 9,
+  "subdivision": "039",
+  "name": "Larkspur Public School",
+  "address": "111 LARKSPUR RD"
+ },
+ {
+  "poll_id": "VD0915",
+  "ward": 9,
+  "subdivision": "038",
+  "name": "Good Shepherd Elementary School",
+  "address": "28 RED RIVER DR"
+ },
+ {
+  "poll_id": "VD0911",
+  "ward": 9,
+  "subdivision": "030",
+  "name": "Brampton Library - Springdale Branch **",
+  "address": "10705 BRAMALEA RD"
+ },
+ {
+  "poll_id": "VD0902",
+  "ward": 9,
+  "subdivision": "048",
+  "name": "The Village of Sandalwood Park*",
+  "address": "425 GREAT LAKES DR"
+ },
+ {
+  "poll_id": "VD0913",
+  "ward": 9,
+  "subdivision": "049",
+  "name": "Maple Grove Care Community *",
+  "address": "215 SUNNY MEADOW BLVD"
+ },
+ {
+  "poll_id": "VD0918",
+  "ward": 9,
+  "subdivision": "044",
+  "name": "Tall Pines Long Term Care Centre*",
+  "address": "1001 PETER ROBERTSON BLVD"
+ },
+ {
+  "poll_id": "VD0903",
+  "ward": 9,
+  "subdivision": "007",
+  "name": "Brampton Soccer Centre",
+  "address": "1495 SANDALWOOD PKWY E"
+ },
+ {
+  "poll_id": "VD0916",
+  "ward": 9,
+  "subdivision": "047",
+  "name": "Brampton Civic Hospital*",
+  "address": "2100 BOVAIRD DR E"
+ },
+ {
+  "poll_id": "VD0917",
+  "ward": 9,
+  "subdivision": "045",
+  "name": "Chinguacousy Wellness Centre",
+  "address": "995 PETER ROBERTSON BLVD"
+ },
+ {
+  "poll_id": "VD1001",
+  "ward": 10,
+  "subdivision": "002",
+  "name": "Shaw Public School",
+  "address": "10 FATHER TOBIN RD"
+ },
+ {
+  "poll_id": "VD1003",
+  "ward": 10,
+  "subdivision": "052",
+  "name": "Eagle Plains Public School",
+  "address": "40 EAGLE PLAINS DR"
+ },
+ {
+  "poll_id": "VD1002",
+  "ward": 10,
+  "subdivision": "005",
+  "name": "Mountain Ash Public School",
+  "address": "280 MOUNTAINASH RD"
+ },
+ {
+  "poll_id": "VD1004",
+  "ward": 10,
+  "subdivision": "008",
+  "name": "Robert J. Lee Public School",
+  "address": "160 MOUNTAINASH RD"
+ },
+ {
+  "poll_id": "VD1005",
+  "ward": 10,
+  "subdivision": "021",
+  "name": "Mount Royal Public School",
+  "address": "65 MOUNT ROYAL CIR"
+ },
+ {
+  "poll_id": "VD1007",
+  "ward": 10,
+  "subdivision": "016",
+  "name": "Treeline Public School",
+  "address": "145 TREELINE BLVD"
+ },
+ {
+  "poll_id": "VD1008",
+  "ward": 10,
+  "subdivision": "053",
+  "name": "Holy Spirit Elementary School",
+  "address": "25 BLOOMSBURY AVE"
+ },
+ {
+  "poll_id": "VD1006",
+  "ward": 10,
+  "subdivision": "021",
+  "name": "Our Lady of Lourdes Catholic Elementary School",
+  "address": "25 MOUNT ROYAL CIR"
+ },
+ {
+  "poll_id": "VD1009",
+  "ward": 10,
+  "subdivision": "046",
+  "name": "Fairlawn Public School",
+  "address": "40 FAIRLAWN BLVD"
+ },
+ {
+  "poll_id": "VD1010",
+  "ward": 10,
+  "subdivision": "050",
+  "name": "Pte. Buckam Singh Public School",
+  "address": "100 MARTIN BYRNE DR"
+ },
+ {
+  "poll_id": "VD1012",
+  "ward": 10,
+  "subdivision": "029",
+  "name": "Sir Isaac Brock Public School",
+  "address": "45 MELTWATER CRES"
+ },
+ {
+  "poll_id": "VD1013",
+  "ward": 10,
+  "subdivision": "034",
+  "name": "Castle Oaks Public School",
+  "address": "155 CASTLE OAKS CROSS"
+ },
+ {
+  "poll_id": "VD1015",
+  "ward": 10,
+  "subdivision": "036",
+  "name": "Beryl Ford Public School",
+  "address": "45 IRONSHIELD DR"
+ },
+ {
+  "poll_id": "VD1016",
+  "ward": 10,
+  "subdivision": "040",
+  "name": "Thorndale Public School",
+  "address": "133 THORNDALE RD"
+ },
+ {
+  "poll_id": "VD1011",
+  "ward": 10,
+  "subdivision": "026",
+  "name": "Gore Meadows Community Centre **",
+  "address": "10150 THE GORE RD"
+ },
+ {
+  "poll_id": "VD1014",
+  "ward": 10,
+  "subdivision": "032",
+  "name": "Castlebrooke Secondary School",
+  "address": "10 GARDENBROOKE TRAIL"
+ },
+ {
+  "poll_id": "VD0807",
+  "ward": 8,
+  "subdivision": "033",
+  "name": "Hawthorn Woods Care Community*",
+  "address": "9257 Goreway Dr"
+ }
+]

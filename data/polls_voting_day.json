@@ -1,0 +1,1334 @@
+[
+ {
+  "name": "Arnott Charlton Public School",
+  "address": "140 Winterfold Dr",
+  "ward": "1",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.767626,
+  "lat": 43.715
+ },
+ {
+  "name": "Century Gardens Recreation Centre",
+  "address": "340 Vodden St E",
+  "ward": "1",
+  "facility_type": "CITY",
+  "accessible": "YES",
+  "lng": -79.753726,
+  "lat": 43.708156
+ },
+ {
+  "name": "Father C.W. Sullivan Catholic Elementary School",
+  "address": "62 Seaborn Rd",
+  "ward": "1",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.746966,
+  "lat": 43.70623
+ },
+ {
+  "name": "Glendale Public School",
+  "address": "35 Sunset Blvd",
+  "ward": "1",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.776655,
+  "lat": 43.687558
+ },
+ {
+  "name": "Madoc Drive Public School",
+  "address": "49 Madoc Dr",
+  "ward": "1",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.749236,
+  "lat": 43.703371
+ },
+ {
+  "name": "Nibi Emosaawdang Public School",
+  "address": "250 Centre St N",
+  "ward": "1",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.765816,
+  "lat": 43.699563
+ },
+ {
+  "name": "Our Lady of Fatima Catholic Elementary School",
+  "address": "39 Sunset Blvd",
+  "ward": "1",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.777857,
+  "lat": 43.688294
+ },
+ {
+  "name": "St. Cecilia Elementary - Westervelts Corners Public School",
+  "address": "10 & 20 Brickyard Way",
+  "ward": "1",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.780409,
+  "lat": 43.704223
+ },
+ {
+  "name": "St. Joachim Catholic Elementary School",
+  "address": "435 Rutherford Rd N",
+  "ward": "1",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.76703,
+  "lat": 43.713291
+ },
+ {
+  "name": "The Rose Brampton",
+  "address": "1 Theatre Ln",
+  "ward": "1",
+  "facility_type": "CITY",
+  "accessible": null,
+  "lng": -79.760081,
+  "lat": 43.687193
+ },
+ {
+  "name": "Venvi Greenway",
+  "address": "100 Ken Whillans Dr",
+  "ward": "1",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.763978,
+  "lat": 43.692285
+ },
+ {
+  "name": "École élémentaire Carrefour des jeunes",
+  "address": "375 Centre St N",
+  "ward": "1",
+  "facility_type": "FRENCH PUBLIC",
+  "accessible": null,
+  "lng": -79.772132,
+  "lat": 43.706987
+ },
+ {
+  "name": "Burnt Elm Public School",
+  "address": "85 Burnt Elm Dr",
+  "ward": "2",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.818563,
+  "lat": 43.718029
+ },
+ {
+  "name": "Esker Lake Public School",
+  "address": "10420 Heart Lake Rd N",
+  "ward": "2",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.777395,
+  "lat": 43.73259
+ },
+ {
+  "name": "Jim Archdekin Recreation Centre",
+  "address": "292 Conestoga Dr",
+  "ward": "2",
+  "facility_type": "CITY",
+  "accessible": null,
+  "lng": -79.789573,
+  "lat": 43.717364
+ },
+ {
+  "name": "Paul Palleschi Recreation Centre",
+  "address": "30 Loafers Lake Ln",
+  "ward": "2",
+  "facility_type": "CITY",
+  "accessible": "YES",
+  "lng": -79.800908,
+  "lat": 43.724838
+ },
+ {
+  "name": "Robert H. Lagerquist Sr. Public School",
+  "address": "105 Richvale Dr N",
+  "ward": "2",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.796608,
+  "lat": 43.732776
+ },
+ {
+  "name": "Sacred Heart Catholic Elementary School",
+  "address": "24 Kerwood Pl",
+  "ward": "2",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.797084,
+  "lat": 43.732975
+ },
+ {
+  "name": "Snelgrove Community Centre",
+  "address": "11692 Hurontario St",
+  "ward": "2",
+  "facility_type": "CITY",
+  "accessible": null,
+  "lng": -79.822683,
+  "lat": 43.7309
+ },
+ {
+  "name": "St. Agnes Catholic Elementary School",
+  "address": "103 Richvale Dr S",
+  "ward": "2",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.780698,
+  "lat": 43.724838
+ },
+ {
+  "name": "St. Josephine Bakhita Catholic Elementary School",
+  "address": "430 Van Kirk Dr",
+  "ward": "2",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.825615,
+  "lat": 43.720737
+ },
+ {
+  "name": "St. Rita Catholic Elementary School",
+  "address": "30 Summer Valley Dr",
+  "ward": "2",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.824686,
+  "lat": 43.737021
+ },
+ {
+  "name": "St. Stephen Catholic Elementary School",
+  "address": "17 Colonel Bertram Rd",
+  "ward": "2",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.815657,
+  "lat": 43.728263
+ },
+ {
+  "name": "Woodhall Park Retirement Village",
+  "address": "10250 & 10260 Kennedy Rd N",
+  "ward": "2",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.783623,
+  "lat": 43.720287
+ },
+ {
+  "name": "Amica Peel Village",
+  "address": "223 Main St S",
+  "ward": "3",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.739558,
+  "lat": 43.670044
+ },
+ {
+  "name": "Bishop Francis Allen Catholic Elementary School",
+  "address": "325 McMurchy Ave S",
+  "ward": "3",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.746778,
+  "lat": 43.666458
+ },
+ {
+  "name": "Centennial Sr. Public School",
+  "address": "50 Ladore Dr",
+  "ward": "3",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.750138,
+  "lat": 43.673529
+ },
+ {
+  "name": "Helen Wilson Public School",
+  "address": "9 Abbey Rd",
+  "ward": "3",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.741974,
+  "lat": 43.681405
+ },
+ {
+  "name": "Norton Place Park Community Centre",
+  "address": "170 Clark Blvd",
+  "ward": "3",
+  "facility_type": "CITY",
+  "accessible": null,
+  "lng": -79.727694,
+  "lat": 43.707558
+ },
+ {
+  "name": "Parkway Public School",
+  "address": "24 Duncan Bull Dr",
+  "ward": "3",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.738595,
+  "lat": 43.676714
+ },
+ {
+  "name": "Peel Village Golf Course",
+  "address": "29A Hartford Trail",
+  "ward": "3",
+  "facility_type": "CITY",
+  "accessible": null,
+  "lng": -79.723855,
+  "lat": 43.670378
+ },
+ {
+  "name": "Ridgeview Public School",
+  "address": "25 Brenda Ave",
+  "ward": "3",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.756385,
+  "lat": 43.672531
+ },
+ {
+  "name": "Sir Winston Churchill Public School",
+  "address": "89 Ardglen Dr",
+  "ward": "3",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.748846,
+  "lat": 43.688993
+ },
+ {
+  "name": "The Alderlea",
+  "address": "40 Elizabeth St S",
+  "ward": "3",
+  "facility_type": "CITY",
+  "accessible": "YES",
+  "lng": -79.758513,
+  "lat": 43.6828
+ },
+ {
+  "name": "Tullamore Care Community",
+  "address": "133 Kennedy Rd S",
+  "ward": "3",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.736078,
+  "lat": 43.68476
+ },
+ {
+  "name": "Turner Fenton Secondary School",
+  "address": "7935 Kennedy Rd S",
+  "ward": "3",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.719247,
+  "lat": 43.674913
+ },
+ {
+  "name": "William G. Davis Sr. Public School",
+  "address": "491 Bartley Bull Pkwy",
+  "ward": "3",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.732522,
+  "lat": 43.670921
+ },
+ {
+  "name": "Bob Callahan Flower City Seniors Centre",
+  "address": "8870 McLaughlin Rd S",
+  "ward": "4",
+  "facility_type": "CITY",
+  "accessible": null,
+  "lng": -79.769363,
+  "lat": 43.671412
+ },
+ {
+  "name": "Burton Manor",
+  "address": "5 Sterritt Dr",
+  "ward": "4",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.773248,
+  "lat": 43.661603
+ },
+ {
+  "name": "Cherrytree Public School",
+  "address": "155 Cherrytree Dr",
+  "ward": "4",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.724867,
+  "lat": 43.654069
+ },
+ {
+  "name": "Churchville Public School",
+  "address": "90 Bonnie Braes Dr",
+  "ward": "4",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.780301,
+  "lat": 43.656002
+ },
+ {
+  "name": "Copeland Public School",
+  "address": "5 Young Dr",
+  "ward": "4",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.762678,
+  "lat": 43.650301
+ },
+ {
+  "name": "Eldorado Public School",
+  "address": "25 Wardsville Dr",
+  "ward": "4",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.779488,
+  "lat": 43.635042
+ },
+ {
+  "name": "Extendicare Brampton",
+  "address": "7891 McLaughlin Rd S",
+  "ward": "4",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.735823,
+  "lat": 43.65543
+ },
+ {
+  "name": "Fletcher's Creek Sr. Public School",
+  "address": "92 Malta Ave",
+  "ward": "4",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.730378,
+  "lat": 43.658391
+ },
+ {
+  "name": "Hickory Wood Public School",
+  "address": "630 Ray Lawson Blvd",
+  "ward": "4",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.74425,
+  "lat": 43.647328
+ },
+ {
+  "name": "Holland Christian Homes",
+  "address": "7900 McLaughlin Rd S & 45 Kingknoll Dr",
+  "ward": "4",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.742735,
+  "lat": 43.654164
+ },
+ {
+  "name": "Morton Way Public School",
+  "address": "200 Morton Way",
+  "ward": "4",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.753113,
+  "lat": 43.656996
+ },
+ {
+  "name": "Pauline Vanier Catholic Elementary School",
+  "address": "56 Oaklea Blvd",
+  "ward": "4",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.734492,
+  "lat": 43.646715
+ },
+ {
+  "name": "Southbrook Retirement Residence",
+  "address": "400 Ray Lawson Blvd",
+  "ward": "4",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.732332,
+  "lat": 43.653911
+ },
+ {
+  "name": "St. Brigid Catholic Elementary School",
+  "address": "81 Torrance Woods",
+  "ward": "4",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.759655,
+  "lat": 43.658403
+ },
+ {
+  "name": "St. Monica Catholic Elementary School",
+  "address": "60 Sterritt Dr",
+  "ward": "4",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.77205,
+  "lat": 43.664909
+ },
+ {
+  "name": "Susan Fennell Sportsplex",
+  "address": "500 Ray Lawson Blvd",
+  "ward": "4",
+  "facility_type": "CITY",
+  "accessible": "YES",
+  "lng": -79.73584,
+  "lat": 43.652879
+ },
+ {
+  "name": "Beatty-Fleming Sr. Public School",
+  "address": "21 Campbell Dr",
+  "ward": "5",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.778553,
+  "lat": 43.678835
+ },
+ {
+  "name": "Homestead Public School",
+  "address": "99 Fletchers Creek Blvd",
+  "ward": "5",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.798594,
+  "lat": 43.688432
+ },
+ {
+  "name": "Ingleborough Public School",
+  "address": "60 Ingleborough Dr",
+  "ward": "5",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.803559,
+  "lat": 43.659273
+ },
+ {
+  "name": "James Potter Public School",
+  "address": "9775 Creditview Rd",
+  "ward": "5",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.812572,
+  "lat": 43.67285
+ },
+ {
+  "name": "Jean Augustine Secondary School",
+  "address": "500 Elbern Markell Dr",
+  "ward": "5",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.824512,
+  "lat": 43.667824
+ },
+ {
+  "name": "Lorenville Public School",
+  "address": "10 Lorenville Dr",
+  "ward": "5",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.810863,
+  "lat": 43.663524
+ },
+ {
+  "name": "Nance Horwood Place",
+  "address": "529 Main St N",
+  "ward": "5",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.780726,
+  "lat": 43.700816
+ },
+ {
+  "name": "Northwood Public School",
+  "address": "70 Gretna Dr",
+  "ward": "5",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.775115,
+  "lat": 43.674809
+ },
+ {
+  "name": "Our Lady of Peace Catholic Elementary School",
+  "address": "15 Fincham Ave",
+  "ward": "5",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.785102,
+  "lat": 43.674078
+ },
+ {
+  "name": "Peel Manor Long Term Care Centre",
+  "address": "525 Main St N",
+  "ward": "5",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.780855,
+  "lat": 43.699241
+ },
+ {
+  "name": "Royal Orchard Middle School",
+  "address": "77 Royal Orchard Dr",
+  "ward": "5",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.78654,
+  "lat": 43.69457
+ },
+ {
+  "name": "Springbrook Public School",
+  "address": "145 Jordensen Dr",
+  "ward": "5",
+  "facility_type": "PDSB",
+  "accessible": "YES",
+  "lng": -79.794371,
+  "lat": 43.66612
+ },
+ {
+  "name": "St. Jean-Marie Vianney Catholic Elementary School",
+  "address": "75 Jordensen Dr",
+  "ward": "5",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.801185,
+  "lat": 43.669414
+ },
+ {
+  "name": "St. Maria Goretti Catholic Elementary School",
+  "address": "121 Royal Orchard Dr",
+  "ward": "5",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.788951,
+  "lat": 43.696415
+ },
+ {
+  "name": "St. Ursula Catholic Elementary School",
+  "address": "11 Dwellers Rd",
+  "ward": "5",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.800047,
+  "lat": 43.689029
+ },
+ {
+  "name": "Aylesbury Public School",
+  "address": "25 Aylesbury Dr",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.831467,
+  "lat": 43.678202
+ },
+ {
+  "name": "Brisdale Public School",
+  "address": "370 Brisdale Dr",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.836822,
+  "lat": 43.698915
+ },
+ {
+  "name": "Cassie Campbell Community Centre",
+  "address": "1050 Sandalwood Pkwy W",
+  "ward": "6",
+  "facility_type": "CITY",
+  "accessible": "YES",
+  "lng": -79.824449,
+  "lat": 43.696935
+ },
+ {
+  "name": "Cheyne Middle School",
+  "address": "236 Queen Mary Dr",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.818276,
+  "lat": 43.705456
+ },
+ {
+  "name": "Dolson Public School",
+  "address": "95 Remembrance Rd",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.851033,
+  "lat": 43.695112
+ },
+ {
+  "name": "Edenbrook Hill Public School",
+  "address": "61 Edenbrook Hill Dr",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.808957,
+  "lat": 43.695365
+ },
+ {
+  "name": "Guardian Angels Catholic Elementary School",
+  "address": "62 Heatherdale Dr",
+  "ward": "6",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.819435,
+  "lat": 43.686553
+ },
+ {
+  "name": "Huttonville Public School",
+  "address": "2322 Embleton Rd",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.809371,
+  "lat": 43.641381
+ },
+ {
+  "name": "Malala Yousafzai Public School",
+  "address": "565 Remembrance Rd",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.830958,
+  "lat": 43.715037
+ },
+ {
+  "name": "McCrimmon Middle School",
+  "address": "83 McCrimmon Dr",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.82697,
+  "lat": 43.690488
+ },
+ {
+  "name": "Red Cedar Public School",
+  "address": "595 Brisdale Dr",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.848101,
+  "lat": 43.707694
+ },
+ {
+  "name": "Roberta Bondar Public School",
+  "address": "30 Pantomine Blvd",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.755313,
+  "lat": 43.640766
+ },
+ {
+  "name": "St. Angela Merici Catholic Elementary School",
+  "address": "83 Edenbrook Hill Dr",
+  "ward": "6",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.809804,
+  "lat": 43.696312
+ },
+ {
+  "name": "St. Daniel Comboni Catholic Elementary School",
+  "address": "120 Veterans Dr",
+  "ward": "6",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.84117,
+  "lat": 43.679599
+ },
+ {
+  "name": "St. Lucy Catholic Elementary School",
+  "address": "25 Kanata Rd",
+  "ward": "6",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.821177,
+  "lat": 43.708136
+ },
+ {
+  "name": "Tribune Drive Public School",
+  "address": "30 Tribune Dr",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.839752,
+  "lat": 43.69097
+ },
+ {
+  "name": "Whaley's Corners Public School",
+  "address": "140 Howard Stewart Rd",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.787207,
+  "lat": 43.631112
+ },
+ {
+  "name": "Worthington Public School",
+  "address": "71 Worthington Ave",
+  "ward": "6",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.818534,
+  "lat": 43.684485
+ },
+ {
+  "name": "École secondaire Jeunes sans frontières",
+  "address": "7585 Financial Dr",
+  "ward": "6",
+  "facility_type": "FRENCH PUBLIC",
+  "accessible": null,
+  "lng": -79.758138,
+  "lat": 43.624424
+ },
+ {
+  "name": "Aloma Crescent Public School",
+  "address": "57 Aloma Cres",
+  "ward": "7",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.703775,
+  "lat": 43.708052
+ },
+ {
+  "name": "Balmoral Drive Sr. Public School",
+  "address": "233 Balmoral Dr",
+  "ward": "7",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.712364,
+  "lat": 43.708456
+ },
+ {
+  "name": "Dorset Drive Public School",
+  "address": "100 Dorset Dr",
+  "ward": "7",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.698964,
+  "lat": 43.716039
+ },
+ {
+  "name": "Earnscliffe Recreation Centre",
+  "address": "44 Eastbourne Dr",
+  "ward": "7",
+  "facility_type": "CITY",
+  "accessible": "YES",
+  "lng": -79.699896,
+  "lat": 43.722993
+ },
+ {
+  "name": "Hanover Public School",
+  "address": "215 Hanover Rd",
+  "ward": "7",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.728986,
+  "lat": 43.718875
+ },
+ {
+  "name": "Hilldale Public School",
+  "address": "100 Hilldale Cres",
+  "ward": "7",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.728254,
+  "lat": 43.729175
+ },
+ {
+  "name": "Knightsbridge Senior Centre",
+  "address": "1A Knightsbridge Rd",
+  "ward": "7",
+  "facility_type": "CITY",
+  "accessible": null,
+  "lng": -79.717365,
+  "lat": 43.717418
+ },
+ {
+  "name": "Massey Street Public School",
+  "address": "95 Massey St",
+  "ward": "7",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.74665,
+  "lat": 43.737949
+ },
+ {
+  "name": "North Bramalea United Church",
+  "address": "363 Howden Blvd",
+  "ward": "7",
+  "facility_type": "CHURCH",
+  "accessible": null,
+  "lng": -79.741965,
+  "lat": 43.717567
+ },
+ {
+  "name": "Russell D. Barber Public School",
+  "address": "255 North Park Dr",
+  "ward": "7",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.751014,
+  "lat": 43.723503
+ },
+ {
+  "name": "St. Anthony Catholic Elementary School",
+  "address": "950 North Park Dr",
+  "ward": "7",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.742386,
+  "lat": 43.736171
+ },
+ {
+  "name": "St. Marguerite Bourgeoys Catholic Elementary School",
+  "address": "550 North Park Dr",
+  "ward": "7",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.753818,
+  "lat": 43.727689
+ },
+ {
+  "name": "Williams Parkway Sr. Public School",
+  "address": "1285 Williams Pkwy",
+  "ward": "7",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.733114,
+  "lat": 43.730835
+ },
+ {
+  "name": "École élémentaire catholique Sainte-Jeanne-d'Arc",
+  "address": "25 Laurelcrest St",
+  "ward": "7",
+  "facility_type": "FRENCH CATHOLIC",
+  "accessible": null,
+  "lng": -79.736682,
+  "lat": 43.710728
+ },
+ {
+  "name": "Calderstone Middle School",
+  "address": "160 Calderstone Rd",
+  "ward": "8",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.692417,
+  "lat": 43.771997
+ },
+ {
+  "name": "Claireville Public School",
+  "address": "97 Gallucci Cres",
+  "ward": "8",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.670935,
+  "lat": 43.771464
+ },
+ {
+  "name": "Father Francis McSpiritt Catholic Elementary School",
+  "address": "55 Lexington Rd",
+  "ward": "8",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.698237,
+  "lat": 43.774613
+ },
+ {
+  "name": "Georges Vanier Catholic Elementary School",
+  "address": "28 Finchgate Blvd",
+  "ward": "8",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.711391,
+  "lat": 43.727519
+ },
+ {
+  "name": "Goldcrest Public School",
+  "address": "24 Goldcrest Rd",
+  "ward": "8",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.720546,
+  "lat": 43.729866
+ },
+ {
+  "name": "Greenbriar Recreation Centre",
+  "address": "1100 Central Park Dr",
+  "ward": "8",
+  "facility_type": "CITY",
+  "accessible": "YES",
+  "lng": -79.717234,
+  "lat": 43.735985
+ },
+ {
+  "name": "Hawthorn Woods Care Community",
+  "address": "9257 Goreway Drive",
+  "ward": "8",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.68899,
+  "lat": 43.757602
+ },
+ {
+  "name": "Jefferson Public School",
+  "address": "48 Jefferson Rd",
+  "ward": "8",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.730318,
+  "lat": 43.738255
+ },
+ {
+  "name": "Professor's Lake Recreation Centre",
+  "address": "1660 North Park Dr",
+  "ward": "8",
+  "facility_type": "CITY",
+  "accessible": null,
+  "lng": -79.733126,
+  "lat": 43.74653
+ },
+ {
+  "name": "Red Willow Public School",
+  "address": "80 Redwillow Rd",
+  "ward": "8",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.701299,
+  "lat": 43.773408
+ },
+ {
+  "name": "Riverstone Community Centre",
+  "address": "195 Don Minaker Dr",
+  "ward": "8",
+  "facility_type": "CITY",
+  "accessible": null,
+  "lng": -79.670746,
+  "lat": 43.765906
+ },
+ {
+  "name": "St. John Bosco Catholic Elementary School",
+  "address": "1025 North Park Dr",
+  "ward": "8",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.733036,
+  "lat": 43.74222
+ },
+ {
+  "name": "Walnut Grove Public School",
+  "address": "10 Pinestaff Rd",
+  "ward": "8",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.695274,
+  "lat": 43.779246
+ },
+ {
+  "name": "Blessed Michael J. McGivney Catholic School",
+  "address": "450 Fernforest Dr",
+  "ward": "9",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.768348,
+  "lat": 43.752718
+ },
+ {
+  "name": "Brampton Civic Hospital",
+  "address": "2100 Bovaird Dr E",
+  "ward": "9",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.745165,
+  "lat": 43.745317
+ },
+ {
+  "name": "Brampton Library - Springdale Branch",
+  "address": "10705 Bramalea Rd",
+  "ward": "9",
+  "facility_type": "CITY",
+  "accessible": "YES",
+  "lng": -79.761236,
+  "lat": 43.758032
+ },
+ {
+  "name": "Brampton Soccer Centre",
+  "address": "1495 Sandalwood Pkwy E",
+  "ward": "9",
+  "facility_type": "CITY",
+  "accessible": null,
+  "lng": -79.769038,
+  "lat": 43.743703
+ },
+ {
+  "name": "Carberry Public School",
+  "address": "526 Fernforest Dr",
+  "ward": "9",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.774686,
+  "lat": 43.756364
+ },
+ {
+  "name": "Chinguacousy Wellness Centre",
+  "address": "995 Peter Robertson Blvd",
+  "ward": "9",
+  "facility_type": "CITY",
+  "accessible": null,
+  "lng": -79.742988,
+  "lat": 43.749943
+ },
+ {
+  "name": "Countryside Village Public School",
+  "address": "40 Dolbyhill Dr",
+  "ward": "9",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.782457,
+  "lat": 43.758626
+ },
+ {
+  "name": "Fernforest Public School",
+  "address": "275 Fernforest Dr",
+  "ward": "9",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.757686,
+  "lat": 43.746446
+ },
+ {
+  "name": "Good Shepherd Catholic Elementary School",
+  "address": "28 Red River Dr",
+  "ward": "9",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.746625,
+  "lat": 43.756296
+ },
+ {
+  "name": "Hewson Public School",
+  "address": "235 Father Tobin Rd",
+  "ward": "9",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.759921,
+  "lat": 43.76632
+ },
+ {
+  "name": "Larkspur Public School",
+  "address": "111 Larkspur Rd",
+  "ward": "9",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.749196,
+  "lat": 43.754243
+ },
+ {
+  "name": "Maple Grove Care Community",
+  "address": "215 Sunny Meadow Blvd",
+  "ward": "9",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.754661,
+  "lat": 43.758018
+ },
+ {
+  "name": "Our Lady of Providence Catholic Elementary School",
+  "address": "35 Black Oak Dr",
+  "ward": "9",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.7601,
+  "lat": 43.744089
+ },
+ {
+  "name": "Ross Drive Public School",
+  "address": "40 Ross Dr",
+  "ward": "9",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.784792,
+  "lat": 43.750445
+ },
+ {
+  "name": "Springdale Public School",
+  "address": "100 Dewside Dr",
+  "ward": "9",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.766707,
+  "lat": 43.753597
+ },
+ {
+  "name": "Sunny View Middle School",
+  "address": "30 Chapparal Dr",
+  "ward": "9",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.756596,
+  "lat": 43.762051
+ },
+ {
+  "name": "Tall Pines Long Term Care Centre",
+  "address": "1001 Peter Robertson Blvd",
+  "ward": "9",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.742768,
+  "lat": 43.750181
+ },
+ {
+  "name": "The Village of Sandalwood Park",
+  "address": "425 Great Lakes Dr",
+  "ward": "9",
+  "facility_type": "LONG TERM CARE",
+  "accessible": null,
+  "lng": -79.771893,
+  "lat": 43.741009
+ },
+ {
+  "name": "Beryl Ford Public School",
+  "address": "45 Ironshield Dr",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.669363,
+  "lat": 43.790277
+ },
+ {
+  "name": "Castle Oaks Public School",
+  "address": "155 Castle Oaks Cross",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.672009,
+  "lat": 43.794525
+ },
+ {
+  "name": "Castlebrooke Secondary School",
+  "address": "10 Gardenbrooke Trail",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.677437,
+  "lat": 43.78435
+ },
+ {
+  "name": "Eagle Plains Public School",
+  "address": "40 Eagle Plains Dr",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.742518,
+  "lat": 43.773507
+ },
+ {
+  "name": "Fairlawn Public School",
+  "address": "40 Fairlawn Blvd",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.725959,
+  "lat": 43.768069
+ },
+ {
+  "name": "Gore Meadows Community Centre",
+  "address": "10150 The Gore Rd",
+  "ward": "10",
+  "facility_type": "CITY",
+  "accessible": "YES",
+  "lng": -79.694531,
+  "lat": 43.794206
+ },
+ {
+  "name": "Holy Spirit Catholic Elementary School",
+  "address": "25 Bloomsbury Ave",
+  "ward": "10",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.729824,
+  "lat": 43.784506
+ },
+ {
+  "name": "Mount Royal Public School",
+  "address": "65 Mount Royal Cir",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.748529,
+  "lat": 43.790209
+ },
+ {
+  "name": "Mountain Ash Public School",
+  "address": "280 Mountainash Rd",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.745365,
+  "lat": 43.771399
+ },
+ {
+  "name": "Our Lady of Lourdes Catholic Elementary School",
+  "address": "25 Mount Royal Cir",
+  "ward": "10",
+  "facility_type": "DPCDSB",
+  "accessible": null,
+  "lng": -79.747525,
+  "lat": 43.791622
+ },
+ {
+  "name": "Pte. Buckam Singh Public School",
+  "address": "100 Martin Byrne Dr",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.728107,
+  "lat": 43.813088
+ },
+ {
+  "name": "Robert J. Lee Public School",
+  "address": "160 Mountainash Rd",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.735172,
+  "lat": 43.76389
+ },
+ {
+  "name": "Shaw Public School",
+  "address": "10 Father Tobin Rd",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.751484,
+  "lat": 43.775252
+ },
+ {
+  "name": "Sir Isaac Brock Public School",
+  "address": "45 Meltwater Cres",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.675799,
+  "lat": 43.795194
+ },
+ {
+  "name": "Thorndale Public School",
+  "address": "133 Thorndale Rd",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.670062,
+  "lat": 43.781883
+ },
+ {
+  "name": "Treeline Public School",
+  "address": "145 Treeline Blvd",
+  "ward": "10",
+  "facility_type": "PDSB",
+  "accessible": null,
+  "lng": -79.732863,
+  "lat": 43.778322
+ }
+]
