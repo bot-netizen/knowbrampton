@@ -1,0 +1,9 @@
+services:
+  site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: knowbrampton:local
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

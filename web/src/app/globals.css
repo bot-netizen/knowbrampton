@@ -1,0 +1,150 @@
+/* Civic broadsheet: warm paper, near-black ink, one crimson accent.
+   Deliberately unlike City of Brampton branding. */
+:root {
+  --paper: #f7f4ee;
+  --paper-2: #efeadf;
+  --card: #ffffff;
+  --ink: #17150f;
+  --ink-2: #211e16;
+  --ink-soft: #4a4436;
+  --muted: #5c564b;
+  --rule: #ddd6c8;
+  --rule-2: #c4bca9;
+  --crimson: #a32338;
+  --crimson-dark: #7a1828;
+  --teal: #1a5557;
+  --ochre: #8a5a0b;
+  --amber-bg: #fbf6e9;
+  --amber-rule: #e0d4ae;
+  --gold: #d4a72c;
+  --display: var(--font-newsreader), Georgia, serif;
+  --body: var(--font-archivo), "Helvetica Neue", Arial, sans-serif;
+  --gutter: 56px;
+  --leading: 1.6;
+}
+/* Gurmukhi needs its own faces and more leading than Latin. */
+html[lang="pa"] {
+  --display: var(--font-gurmukhi-serif), Georgia, serif;
+  --body: var(--font-gurmukhi-sans), "Helvetica Neue", Arial, sans-serif;
+  --leading: 1.85;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: var(--leading);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+h1, h2, h3, .display { font-family: var(--display); font-weight: 600; letter-spacing: -0.02em; margin: 0; }
+html[lang="pa"] h1, html[lang="pa"] h2, html[lang="pa"] h3 { letter-spacing: 0; line-height: 1.35; }
+a { color: var(--crimson); text-decoration: none; }
+a:hover { color: var(--crimson-dark); text-decoration: underline; }
+a:focus-visible, button:focus-visible, input:focus-visible {
+  outline: 3px solid var(--crimson); outline-offset: 2px;
+}
+.num { font-variant-numeric: tabular-nums; font-family: var(--font-archivo), sans-serif; }
+.wrap { max-width: 1280px; margin: 0 inline; margin-inline: auto; padding-inline: var(--gutter); }
+.skip {
+  position: absolute; left: -9999px; top: 0; background: var(--ink); color: var(--paper);
+  padding: 12px 18px; z-index: 50;
+}
+.skip:focus { left: 8px; top: 8px; }
+
+/* header */
+.site-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  padding: 18px var(--gutter); border-bottom: 1px solid var(--rule); flex-wrap: wrap;
+}
+.mast { display: flex; flex-direction: column; gap: 3px; }
+.mast a { font-family: var(--display); font-size: 26px; font-weight: 700; color: var(--ink); }
+.mast span { font-size: 10.5px; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); }
+html[lang="pa"] .mast span { letter-spacing: 0; text-transform: none; font-size: 11.5px; }
+.site-nav { display: flex; align-items: center; gap: 22px; font-size: 14.5px; font-weight: 500; flex-wrap: wrap; }
+.site-nav > a { color: var(--ink); }
+.cta {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px;
+  padding: 0 20px; background: var(--crimson); color: #fff !important; font-weight: 600;
+  border-radius: 2px; text-decoration: none !important;
+}
+.cta:hover { background: var(--crimson-dark); }
+
+/* language toggle */
+.lang { display: flex; border: 1px solid var(--rule-2); background: #fff; border-radius: 2px; overflow: hidden; }
+.lang a {
+  display: flex; align-items: center; min-height: 44px; padding: 0 13px;
+  font-size: 13px; font-weight: 600; color: var(--ink); text-decoration: none;
+}
+.lang a[aria-current="true"] { background: var(--ink); color: var(--paper); font-weight: 700; }
+.lang a:hover { text-decoration: none; background: var(--paper-2); }
+.lang a[aria-current="true"]:hover { background: var(--ink); }
+
+/* translation status */
+.xl-banner {
+  background: var(--amber-bg); border-bottom: 1px solid var(--amber-rule);
+  padding: 12px var(--gutter); display: flex; gap: 14px; align-items: baseline; flex-wrap: wrap;
+}
+.xl-banner strong {
+  font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ochre);
+  font-family: var(--font-archivo), sans-serif; flex-shrink: 0;
+}
+.xl-banner p { margin: 0; font-size: 13px; color: #6b5a2b; }
+
+/* generic blocks */
+.band-dark { background: var(--ink); color: var(--paper); padding: 56px var(--gutter); }
+.band-dark h1 { font-size: clamp(32px, 4.4vw, 58px); line-height: 1.04; }
+html[lang="pa"] .band-dark h1 { font-size: clamp(27px, 3.5vw, 44px); line-height: 1.32; }
+.band-dark p { color: #cdc5b4; font-size: 17px; max-width: 62ch; }
+.section { padding: 44px var(--gutter); border-bottom: 1px solid var(--rule); }
+.section-tint { background: var(--paper-2); }
+.grid { display: grid; gap: 18px; }
+.g4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.g3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.g2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.card { background: var(--card); border: 1px solid var(--rule); padding: 22px 20px; }
+.card h3 { font-family: var(--body); font-size: 16.5px; font-weight: 700; letter-spacing: 0; }
+.card p { margin: 8px 0 0; font-size: 13.5px; color: var(--ink-soft); }
+.stat { font-family: var(--display); font-weight: 600; line-height: 0.92; }
+.kicker { font-size: 11.5px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--crimson); font-weight: 600; }
+html[lang="pa"] .kicker { letter-spacing: 0; text-transform: none; font-size: 12.5px; }
+.band-dark .kicker { color: var(--gold); }
+.countdown { border: 1px solid #3a362c; background: var(--ink-2); padding: 24px 26px; min-width: 264px; }
+.countdown .big { font-family: var(--display); font-size: 88px; font-weight: 600; line-height: 0.95; }
+
+/* forms */
+label.field { display: block; font-size: 12px; letter-spacing: 0.09em; text-transform: uppercase; color: var(--ink-soft); font-weight: 600; margin-bottom: 8px; }
+html[lang="pa"] label.field { letter-spacing: 0; text-transform: none; font-size: 13px; }
+input[type="text"] {
+  width: 100%; font-family: var(--body); font-size: 17px; padding: 14px 16px;
+  border: 1px solid var(--rule-2); background: #fdfcf9; color: var(--ink); border-radius: 2px;
+}
+button.cta { border: 0; cursor: pointer; font-family: var(--body); font-size: 15px; }
+
+/* badges */
+.badge { display: inline-flex; align-items: center; font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; padding: 4px 8px; }
+html[lang="pa"] .badge { letter-spacing: 0; text-transform: none; font-size: 12px; }
+.badge-verified { background: var(--teal); color: #fff; }
+.badge-unsourced { background: var(--amber-bg); border: 1px solid var(--amber-rule); color: var(--ochre); }
+
+/* footer */
+.site-foot { background: var(--ink-2); color: #cdc5b4; padding: 28px var(--gutter); }
+.site-foot a { color: var(--paper); font-weight: 600; }
+.site-foot p { margin: 0; font-size: 12.5px; max-width: 70ch; }
+
+/* map */
+.wardmap { width: 100%; height: auto; display: block; }
+.wardmap path { cursor: pointer; transition: fill-opacity 0.12s ease; }
+.wardmap path:hover { fill-opacity: 0.42 !important; }
+
+@media (max-width: 900px) {
+  :root { --gutter: 20px; }
+  .g4, .g3, .g2 { grid-template-columns: 1fr; }
+  .band-dark { padding: 34px var(--gutter); }
+  .section { padding: 30px var(--gutter); }
+  .site-head { gap: 14px; }
+  .site-nav { gap: 14px; font-size: 14px; width: 100%; }
+  .countdown .big { font-size: 68px; }
+}

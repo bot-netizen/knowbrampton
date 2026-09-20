@@ -1,0 +1,9 @@
+.git
+.venv
+__pycache__
+web/node_modules
+web/.next
+web/out
+docs
+*.md
+!README.md

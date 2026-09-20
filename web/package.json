@@ -1,0 +1,23 @@
+{
+  "name": "knowbrampton-web",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/sync-data.mjs",
+    "dev": "next dev -p 3210",
+    "prebuild": "node scripts/sync-data.mjs",
+    "build": "next build",
+    "start": "npx serve out -l 3210",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5.6"
+  }
+}

@@ -1,0 +1,10 @@
+[
+  { "en": "Ward", "pa": "ਵਾਰਡ", "why_en": "Transliterated — no established Punjabi term", "why_pa": "ਲਿਪੀਅੰਤਰਣ — ਕੋਈ ਪ੍ਰਚਲਿਤ ਪੰਜਾਬੀ ਸ਼ਬਦ ਨਹੀਂ", "status": "transliterated" },
+  { "en": "Regional Councillor", "pa": "ਰੀਜਨਲ ਕੌਂਸਲਰ", "why_en": "Transliterated — translating it implies the wrong government", "why_pa": "ਲਿਪੀਅੰਤਰਣ — ਅਨੁਵਾਦ ਗ਼ਲਤ ਸਰਕਾਰ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਹੈ", "status": "transliterated" },
+  { "en": "City Councillor", "pa": "ਸਿਟੀ ਕੌਂਸਲਰ", "why_en": "Transliterated", "why_pa": "ਲਿਪੀਅੰਤਰਣ", "status": "transliterated" },
+  { "en": "Levy", "pa": "ਵਿਸ਼ੇਸ਼ ਟੈਕਸ (levy)", "why_en": "Shown in both — a levy is not a general tax", "why_pa": "ਦੋਵੇਂ ਦਿਖਾਏ ਜਾਂਦੇ ਹਨ — levy ਆਮ ਟੈਕਸ ਨਹੀਂ ਹੈ", "status": "bilingual" },
+  { "en": "Advance voting", "pa": "ਅਗਾਊਂ ਵੋਟਿੰਗ", "why_en": "Settled translation", "why_pa": "ਮਨਜ਼ੂਰ ਅਨੁਵਾਦ", "status": "translated" },
+  { "en": "School Trustee", "pa": "ਸਕੂਲ ਟਰੱਸਟੀ", "why_en": "Transliterated", "why_pa": "ਲਿਪੀਅੰਤਰਣ", "status": "transliterated" },
+  { "en": "Strong-mayor powers", "pa": "ਸਟਰਾਂਗ-ਮੇਅਰ ਅਧਿਕਾਰ", "why_en": "Transliterated — a specific Ontario legal power", "why_pa": "ਲਿਪੀਅੰਤਰਣ — ਓਨਟਾਰੀਓ ਦਾ ਖ਼ਾਸ ਕਾਨੂੰਨੀ ਅਧਿਕਾਰ", "status": "transliterated" },
+  { "en": "Development charges", "pa": "ਡਿਵੈਲਪਮੈਂਟ ਚਾਰਜਿਜ਼", "why_en": "Transliterated — a defined statutory fee", "why_pa": "ਲਿਪੀਅੰਤਰਣ — ਕਾਨੂੰਨ ਵਿੱਚ ਪਰਿਭਾਸ਼ਿਤ ਫ਼ੀਸ", "status": "transliterated" }
+]

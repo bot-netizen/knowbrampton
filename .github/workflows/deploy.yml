@@ -1,0 +1,56 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci --no-audit --no-fund
+        working-directory: web
+      - run: npm run type-check
+        working-directory: web
+      - name: Check locale key parity
+        working-directory: web
+        run: |
+          node -e '
+            const en=require("./src/i18n/en.json"), pa=require("./src/i18n/pa.json");
+            const walk=(o,p="")=>Object.entries(o).flatMap(([k,v])=>typeof v==="object"?walk(v,p+k+"."):[p+k]);
+            const a=walk(en), b=walk(pa);
+            const miss=a.filter(k=>!b.includes(k)), extra=b.filter(k=>!a.includes(k));
+            if(miss.length||extra.length){console.error("locale mismatch",{miss,extra});process.exit(1)}
+            console.log("locale parity OK:",a.length,"strings");
+          '
+      - run: npm run build
+        working-directory: web
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
